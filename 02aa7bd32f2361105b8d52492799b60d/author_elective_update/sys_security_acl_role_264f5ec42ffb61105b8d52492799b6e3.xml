@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 09:36:46</sys_created_on>
+        <sys_id>264f5ec42ffb61105b8d52492799b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1083767_starfish_swimming_class.x_1083767_starfish.swimming_class_user</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_security_acl display_value="x_1083767_starfish_swimming_class">a64f5ec42ffb61105b8d52492799b6e0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_264f5ec42ffb61105b8d52492799b6e3</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 09:36:46</sys_updated_on>
+        <sys_user_role display_value="x_1083767_starfish.swimming_class_user" name="x_1083767_starfish.swimming_class_user">464fd6c42ffb61105b8d52492799b63d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sys_security_acl_role_264f5ec42ffb61105b8d52492799b6e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>subhash.shrestha</sys_created_by><sys_created_on>2023-06-28 09:36:46</sys_created_on><sys_id>264f5ec42ffb61105b8d52492799b6e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1083767_starfish_swimming_class.x_1083767_starfish.swimming_class_user</sys_name><sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package><sys_policy/><sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope><sys_security_acl display_value="x_1083767_starfish_swimming_class">a64f5ec42ffb61105b8d52492799b6e0</sys_security_acl><sys_update_name>sys_security_acl_role_264f5ec42ffb61105b8d52492799b6e3</sys_update_name><sys_updated_by>subhash.shrestha</sys_updated_by><sys_updated_on>2023-06-28 09:36:46</sys_updated_on><sys_user_role display_value="x_1083767_starfish.swimming_class_user" name="x_1083767_starfish.swimming_class_user">464fd6c42ffb61105b8d52492799b63d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1742613709</payload_hash>
+        <record_name>x_1083767_starfish_swimming_class.x_1083767_starfish.swimming_class_user</record_name>
+        <reverted_from/>
+        <source>df3c2d802f3b61105b8d52492799b6fe</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 09:36:46</sys_created_on>
+        <sys_id>aa4f5ec42ffb61105b8d52492799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189015ccf620000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 09:36:46</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ee4f5ec42cfb611024cd1be8a0e6ace4</update_guid>
+        <update_guid_history>ee4f5ec42cfb611024cd1be8a0e6ace4:1742613709</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1083767_starfish_swimming_class.x_1083767_starfish.swimming_class_user">f5bde6842f3f61105b8d52492799b6e1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 10:39:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>10b71c0af6b845e0a0a496dc416f5c64</sys_id>
+        <sys_metadata>264f5ec42ffb61105b8d52492799b6e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1083767_starfish_swimming_class.x_1083767_starfish.swimming_class_user</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent display_value="">a64f5ec42ffb61105b8d52492799b6e0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_264f5ec42ffb61105b8d52492799b6e3</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_264f5ec42ffb61105b8d52492799b6e3">aa4f5ec42ffb61105b8d52492799b6e5</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 10:39:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

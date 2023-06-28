@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="amount_paid" label="Amount Paid" language="en" table="x_1083767_starfish_class_enrollment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>amount_paid</element>
+            <help/>
+            <hint/>
+            <label>Amount Paid</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <plural>Amount Paids</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-06-28 11:15:44</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Amount Paid</sys_name>
+            <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+            <sys_update_name>sys_documentation_x_1083767_starfish_class_enrollment_amount_paid_en</sys_update_name>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-06-28 11:15:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

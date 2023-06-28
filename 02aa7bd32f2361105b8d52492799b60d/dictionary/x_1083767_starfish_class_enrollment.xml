@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="91cda2082ffb61105b8d52492799b67d" label="Class Enrollment" max_length="40" name="x_1083767_starfish_class_enrollment" type="collection">
+        <element label="Amount Paid" max_length="32" name="amount_paid" reference="sc_cat_item" type="reference"/>
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element choice="3" default="ne" label="Enrollment Approval" max_length="40" name="enrollment_approval" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Enrolled" value="enr"/>
+                <element inactive_on_update="false" label="Not Enrolled" value="ne"/>
+                <element inactive_on_update="false" label="Pending" value="pen"/>
+            </choice>
+        </element>
+        <element label="Instructor Name" mandatory="true" max_length="32" name="instructor_name" reference="x_1083767_starfish_instructor" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Session" mandatory="true" max_length="40" name="session" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Afternoon (12 pm - 2 pm)" value="afternoon"/>
+                <element inactive_on_update="false" label="Evening (7 pm - 9 pm)" value="evening"/>
+                <element inactive_on_update="false" label="Midday (10 am - 12pm )" value="midday"/>
+                <element inactive_on_update="false" label="Morning (6 am - 10 am)" value="morning"/>
+            </choice>
+        </element>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Student Name" mandatory="true" max_length="32" name="student_name" reference="x_1083767_starfish_children" type="reference"/>
+        <index name="index">
+            <element name="amount_paid"/>
+        </index>
+        <index name="index2">
+            <element name="instructor_name"/>
+        </index>
+        <index name="index3">
+            <element name="student_name"/>
+        </index>
+    </element>
+</database>
