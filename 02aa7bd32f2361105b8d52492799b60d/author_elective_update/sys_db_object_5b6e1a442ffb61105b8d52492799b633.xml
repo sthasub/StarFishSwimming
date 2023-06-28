@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Class Enrollment</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1083767_starfish_swimming_class</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 09:36:46</sys_created_on>
+        <sys_id>5b6e1a442ffb61105b8d52492799b633</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Class Enrollment</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_db_object_5b6e1a442ffb61105b8d52492799b633</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 10:39:14</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1083767_starfish.swimming_class_user" name="x_1083767_starfish.swimming_class_user">464fd6c42ffb61105b8d52492799b63d</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sys_db_object_5b6e1a442ffb61105b8d52492799b633</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Class Enrollment</label><live_feed_enabled>false</live_feed_enabled><name>x_1083767_starfish_swimming_class</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>subhash.shrestha</sys_created_by><sys_created_on>2023-06-28 09:36:46</sys_created_on><sys_id>5b6e1a442ffb61105b8d52492799b633</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Class Enrollment</sys_name><sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package><sys_policy/><sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope><sys_update_name>sys_db_object_5b6e1a442ffb61105b8d52492799b633</sys_update_name><sys_updated_by>subhash.shrestha</sys_updated_by><sys_updated_on>2023-06-28 10:39:14</sys_updated_on><update_access>false</update_access><user_role display_value="x_1083767_starfish.swimming_class_user" name="x_1083767_starfish.swimming_class_user">464fd6c42ffb61105b8d52492799b63d</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>922296166</payload_hash>
+        <record_name>Class Enrollment</record_name>
+        <reverted_from/>
+        <source>df3c2d802f3b61105b8d52492799b6fe</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 10:39:15</sys_created_on>
+        <sys_id>399d66842f3f61105b8d52492799b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890196023f0000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 10:39:15</sys_updated_on>
+        <type>Table</type>
+        <update_guid>fd9d6684283f61101d9a34ec73101333</update_guid>
+        <update_guid_history>fd9d6684283f61101d9a34ec73101333:922296166,364f9ec4ccfb6110b7cbdad51fbb4c06:1167668614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 10:39:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>1298d1a83a224ac282fb1fc42800d584</sys_id>
+        <sys_metadata>5b6e1a442ffb61105b8d52492799b633</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Class Enrollment</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sys_db_object_5b6e1a442ffb61105b8d52492799b633</sys_update_name>
+        <sys_update_version display_value="sys_db_object_5b6e1a442ffb61105b8d52492799b633">399d66842f3f61105b8d52492799b634</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 10:39:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
