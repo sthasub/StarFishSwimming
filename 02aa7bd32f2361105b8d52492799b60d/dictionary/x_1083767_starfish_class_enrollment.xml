@@ -4,9 +4,10 @@
         <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
         <element choice="3" default="ne" label="Enrollment Approval" max_length="40" name="enrollment_approval" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Enrolled" value="enr"/>
-                <element inactive_on_update="false" label="Not Enrolled" value="ne"/>
-                <element inactive_on_update="false" label="Pending" value="pen"/>
+                <element inactive_on_update="false" label="Enrolled" sequence="1" value="enr"/>
+                <element inactive_on_update="false" label="Not Enrolled" sequence="2" value="ne"/>
+                <element inactive_on_update="false" label="Pending" sequence="3" value="pen"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="can"/>
             </choice>
         </element>
         <element label="Instructor Name" mandatory="true" max_length="32" name="instructor_name" reference="x_1083767_starfish_instructor" type="reference"/>

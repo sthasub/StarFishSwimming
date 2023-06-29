@@ -23,15 +23,15 @@
             <label>Enrolled</label>
             <language>en</language>
             <name>x_1083767_starfish_class_enrollment</name>
-            <sequence/>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>subhash.shrestha</sys_created_by>
             <sys_created_on>2023-06-28 10:59:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-06-28 10:59:11</sys_updated_on>
+            <sys_updated_on>2023-06-29 09:14:37</sys_updated_on>
             <value>enr</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -42,15 +42,15 @@
             <label>Not Enrolled</label>
             <language>en</language>
             <name>x_1083767_starfish_class_enrollment</name>
-            <sequence/>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>subhash.shrestha</sys_created_by>
             <sys_created_on>2023-06-28 10:58:20</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-06-28 10:58:20</sys_updated_on>
+            <sys_updated_on>2023-06-29 09:14:40</sys_updated_on>
             <value>ne</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -61,16 +61,35 @@
             <label>Pending</label>
             <language>en</language>
             <name>x_1083767_starfish_class_enrollment</name>
-            <sequence/>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>subhash.shrestha</sys_created_by>
             <sys_created_on>2023-06-28 10:58:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-06-28 10:58:56</sys_updated_on>
+            <sys_updated_on>2023-06-29 09:14:43</sys_updated_on>
             <value>pen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enrollment_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-06-29 09:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-06-29 09:14:48</sys_updated_on>
+            <value>can</value>
         </sys_choice>
     </sys_choice>
 </record_update>
