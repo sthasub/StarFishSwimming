@@ -52,7 +52,7 @@
         <recurring_price>0</recurring_price>
         <request_method/>
         <roles/>
-        <sc_catalogs>2ced90482ff361105b8d52492799b69a</sc_catalogs>
+        <sc_catalogs>4bbef9d02f7ba1105b8d52492799b6cf</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -64,14 +64,14 @@
         <sys_created_by>khusbhoo.kumari</sys_created_by>
         <sys_created_on>2023-06-28 04:28:34</sys_created_on>
         <sys_id>4218d1802ff761105b8d52492799b6e6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Swim Lesson School Term</sys_name>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name>sc_cat_item_4218d1802ff761105b8d52492799b6e6</sys_update_name>
-        <sys_updated_by>khusbhoo.kumari</sys_updated_by>
-        <sys_updated_on>2023-06-28 04:29:14</sys_updated_on>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 02:10:46</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
