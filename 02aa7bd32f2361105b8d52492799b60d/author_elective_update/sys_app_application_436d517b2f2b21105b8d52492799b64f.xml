@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Instructor</name>
+        <order>100</order>
+        <roles>x_1083767_starfish.instructor_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-27 10:10:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>436d517b2f2b21105b8d52492799b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instructor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_app_application_436d517b2f2b21105b8d52492799b64f</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-27 10:10:31</sys_updated_on>
+        <title>Instructor</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sys_app_application_436d517b2f2b21105b8d52492799b64f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Instructor</name>
+        <order>100</order>
+        <roles>x_1083767_starfish.instructor_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-27 10:10:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>436d517b2f2b21105b8d52492799b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instructor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_app_application_436d517b2f2b21105b8d52492799b64f</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-27 10:10:31</sys_updated_on>
+        <title>Instructor</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>981385587</payload_hash>
+        <record_name>Instructor</record_name>
+        <reverted_from/>
+        <source>ed74d24c2fbb61105b8d52492799b667</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 08:49:42</sys_created_on>
+        <sys_id>7484964c2fbb61105b8d52492799b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890131b48b0000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 08:49:42</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>3084964cddbb61102445974cc28b4178</update_guid>
+        <update_guid_history>3084964cddbb61102445974cc28b4178:0,da445e0c41bb611019833796bf72c5aa:-2012384575,a81392c862bb6110f0dcbf157f5af393:0,ffa2d688b2bb61107c8c614f2f3ea902:-2012384575,eb6c2184a03b611043d104714b1c5abc:0,533c8984b4b761107532a92c49712e10:-2012384575,2cc42440e437611050303e6a340343e4:0,a0a4ec00e2376110ff5be44d8b6e0ddd:-2012384575,bc6368ccdef36110c771d76cfc1c1d69:0,7723e0cc7df361105d990f6eba80c93d:-2012384575,a312317f6c6b21103258c7735b6ecf33:0,6be1b93f386b2110937ed4fc06329de2:-2012384575,cf6d517b852b21102c41220594316a50:1318491767</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Instructor">71808f482f7f61105b8d52492799b6ae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 12:02:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>71c70b6940194c42a61f7d1648d17f21</sys_id>
+        <sys_metadata>436d517b2f2b21105b8d52492799b64f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instructor</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sys_app_application_436d517b2f2b21105b8d52492799b64f</sys_update_name>
+        <sys_update_version display_value="sys_app_application_436d517b2f2b21105b8d52492799b64f">7484964c2fbb61105b8d52492799b678</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 12:02:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

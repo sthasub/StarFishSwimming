@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Swimming Class</name>
+        <order>100</order>
+        <roles>x_1083767_starfish.swimming_class_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 09:36:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e4f5ec42ffb61105b8d52492799b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Swimming Class</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_app_application_9e4f5ec42ffb61105b8d52492799b69d</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 09:36:46</sys_updated_on>
+        <title>Swimming Class</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sys_app_application_9e4f5ec42ffb61105b8d52492799b69d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Swimming Class</name><order>100</order><roles>x_1083767_starfish.swimming_class_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>subhash.shrestha</sys_created_by><sys_created_on>2023-06-28 09:36:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9e4f5ec42ffb61105b8d52492799b69d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Swimming Class</sys_name><sys_overrides/><sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package><sys_policy/><sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope><sys_update_name>sys_app_application_9e4f5ec42ffb61105b8d52492799b69d</sys_update_name><sys_updated_by>subhash.shrestha</sys_updated_by><sys_updated_on>2023-06-28 09:36:46</sys_updated_on><title>Swimming Class</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-847211480</payload_hash>
+        <record_name>Swimming Class</record_name>
+        <reverted_from/>
+        <source>df3c2d802f3b61105b8d52492799b6fe</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 09:36:46</sys_created_on>
+        <sys_id>d64f5ec42ffb61105b8d52492799b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189015ccca20000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 09:36:46</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>1e4f5ec42cfb6110fd595cd8344ed29f</update_guid>
+        <update_guid_history>1e4f5ec42cfb6110fd595cd8344ed29f:-847211480</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Swimming Class">69408b482f7f61105b8d52492799b6eb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 12:00:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>04385c84f800425689d2b965e2d5b204</sys_id>
+        <sys_metadata>9e4f5ec42ffb61105b8d52492799b69d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Swimming Class</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sys_app_application_9e4f5ec42ffb61105b8d52492799b69d</sys_update_name>
+        <sys_update_version display_value="sys_app_application_9e4f5ec42ffb61105b8d52492799b69d">d64f5ec42ffb61105b8d52492799b6a0</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 12:00:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

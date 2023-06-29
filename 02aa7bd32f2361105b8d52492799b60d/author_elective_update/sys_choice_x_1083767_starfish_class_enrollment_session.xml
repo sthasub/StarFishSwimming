@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="session" table="x_1083767_starfish_class_enrollment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>session</element>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-06-28 10:49:14</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>session</sys_name>
+            <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+            <sys_update_name>sys_choice_x_1083767_starfish_class_enrollment_session</sys_update_name>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-06-28 10:49:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>session</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Afternoon (12 pm - 2 pm)</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-06-28 10:53:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-06-28 10:53:00</sys_updated_on>
+            <value>afternoon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>session</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Evening (7 pm - 9 pm)</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-06-28 10:53:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-06-28 10:53:49</sys_updated_on>
+            <value>evening</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>session</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Midday (10 am - 12pm )</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-06-28 10:51:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-06-28 10:51:28</sys_updated_on>
+            <value>midday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>session</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Morning (6 am - 10 am)</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-06-28 10:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-06-28 10:52:06</sys_updated_on>
+            <value>morning</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
