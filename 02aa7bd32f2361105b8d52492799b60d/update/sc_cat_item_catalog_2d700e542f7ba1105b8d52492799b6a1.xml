@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Coffee">6163594c2fb761105b8d52492799b68a</sc_cat_item>
-        <sc_catalog display_value="Starfish Catalog">2ced90482ff361105b8d52492799b69a</sc_catalog>
+        <sc_catalog display_value="Starfish Catalog">4bbef9d02f7ba1105b8d52492799b6cf</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
-        <sys_created_by>khusbhoo.kumari</sys_created_by>
-        <sys_created_on>2023-06-28 04:07:23</sys_created_on>
-        <sys_id>55e3118c2fb761105b8d52492799b6ff</sys_id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 02:00:34</sys_created_on>
+        <sys_id>2d700e542f7ba1105b8d52492799b6a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Starfish Catalog.Coffee</sys_name>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_55e3118c2fb761105b8d52492799b6ff</sys_update_name>
-        <sys_updated_by>khusbhoo.kumari</sys_updated_by>
-        <sys_updated_on>2023-06-28 04:07:23</sys_updated_on>
+        <sys_update_name>sc_cat_item_catalog_2d700e542f7ba1105b8d52492799b6a1</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 02:00:34</sys_updated_on>
     </sc_cat_item_catalog>
 </record_update>

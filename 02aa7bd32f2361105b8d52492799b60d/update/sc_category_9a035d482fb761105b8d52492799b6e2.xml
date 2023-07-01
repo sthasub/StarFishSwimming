@@ -16,19 +16,19 @@
         <order>0</order>
         <parent/>
         <roles/>
-        <sc_catalog display_value="Starfish Catalog">2ced90482ff361105b8d52492799b69a</sc_catalog>
+        <sc_catalog display_value="Starfish Catalog">4bbef9d02f7ba1105b8d52492799b6cf</sc_catalog>
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>khusbhoo.kumari</sys_created_by>
         <sys_created_on>2023-06-28 04:04:18</sys_created_on>
         <sys_id>9a035d482fb761105b8d52492799b6e2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Swiming Lessons</sys_name>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name>sc_category_9a035d482fb761105b8d52492799b6e2</sys_update_name>
-        <sys_updated_by>khusbhoo.kumari</sys_updated_by>
-        <sys_updated_on>2023-06-28 04:04:18</sys_updated_on>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 02:10:28</sys_updated_on>
         <title>Swiming Lessons</title>
     </sc_category>
     <sys_translated_text action="delete_multiple" query="documentkey=9a035d482fb761105b8d52492799b6e2"/>

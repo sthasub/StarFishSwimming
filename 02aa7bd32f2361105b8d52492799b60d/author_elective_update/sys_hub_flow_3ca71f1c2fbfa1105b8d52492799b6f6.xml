@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>enrollment_set_to_pending_automation</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Class Enrollment Record","reference":"x_1083767_starfish_class_enrollment","reference_display":"Class Enrollment","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>7b48db5c2fbfa1105b8d52492799b6b5</master_snapshot>
+        <name>Enrollment set to pending Automation </name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>be3c83502fbfa1105b8d52492799b63c</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:21:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3ca71f1c2fbfa1105b8d52492799b6f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Enrollment set to pending Automation </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_hub_flow_3ca71f1c2fbfa1105b8d52492799b6f6</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-30 12:37:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_variable_value action="DELETE" query="document_key=3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_flow_record_trigger action="DELETE">
+        <active>true</active>
+        <condition table="x_1083767_starfish_class_enrollment">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 07:31:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be3c83502fbfa1105b8d52492799b63c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <table>x_1083767_starfish_class_enrollment</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="DELETE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>3ca71f1c2fbfa1105b8d52492799b6f6</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_id>84581f5c2fbfa1105b8d52492799b60a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <trigger display_value="">be3c83502fbfa1105b8d52492799b63c</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT IN84581f5c2fbfa1105b8d52492799b60a"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT IN4ff7575c2fbfa1105b8d52492799b60a"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Enrollment set to pending Automation ">3ca71f1c2fbfa1105b8d52492799b6f6</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>4ff7575c2fbfa1105b8d52492799b60a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:25</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=4ff7575c2fbfa1105b8d52492799b60a"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>4ff7575c2fbfa1105b8d52492799b60a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>0ff7575c2fbfa1105b8d52492799b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:22:58</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>4ff7575c2fbfa1105b8d52492799b60a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>c3f7575c2fbfa1105b8d52492799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:22:58</sys_updated_on>
+        <value>x_1083767_starfish_class_enrollment</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="DELETE" query="flow=3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT INf4a71f1c2fbfa1105b8d52492799b6f7"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>3ca71f1c2fbfa1105b8d52492799b6f6</id>
+        <name>Enrollment set to pending Automation </name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:21:27</sys_created_on>
+        <sys_id>f4a71f1c2fbfa1105b8d52492799b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:21:27</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=f4a71f1c2fbfa1105b8d52492799b6f7"/>
+    <sys_hub_flow_input action="DELETE" query="model=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT IN0ff79f1c2fbfa1105b8d52492799b6ef,87f7575c2fbfa1105b8d52492799b606"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Enrollment set to pending Automation ">3ca71f1c2fbfa1105b8d52492799b6f6</model>
+        <model_id>3ca71f1c2fbfa1105b8d52492799b6f6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>0ff79f1c2fbfa1105b8d52492799b6ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Enrollment set to pending Automation ">3ca71f1c2fbfa1105b8d52492799b6f6</model>
+        <model_id>3ca71f1c2fbfa1105b8d52492799b6f6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>87f7575c2fbfa1105b8d52492799b606</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_hub_action_instance action="DELETE" query="flow=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT IN4bf7575c2fbfa1105b8d52492799b611"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Enrollment set to pending Automation ">3ca71f1c2fbfa1105b8d52492799b6f6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>4bf7575c2fbfa1105b8d52492799b611</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 09:47:13</sys_updated_on>
+        <ui_id>f2ed7494-47cb-4772-a493-eac765b2ea37</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=4bf7575c2fbfa1105b8d52492799b611"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4bf7575c2fbfa1105b8d52492799b611</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>87f7575c2fbfa1105b8d52492799b62d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:22:58</sys_updated_on>
+        <value>x_1083767_starfish_class_enrollment</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4bf7575c2fbfa1105b8d52492799b611</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>c3f7575c2fbfa1105b8d52492799b62d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:22:58</sys_updated_on>
+        <value>enrollment_approval=pen</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=4bf7575c2fbfa1105b8d52492799b611"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>4bf7575c2fbfa1105b8d52492799b611</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>43f7575c2fbfa1105b8d52492799b62d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:22:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>4bf7575c2fbfa1105b8d52492799b611</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>c7f7575c2fbfa1105b8d52492799b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:22:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>4bf7575c2fbfa1105b8d52492799b611</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>8ff7575c2fbfa1105b8d52492799b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:22:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=4bf7575c2fbfa1105b8d52492799b611"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=4bf7575c2fbfa1105b8d52492799b611"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_hub_flow_variable action="DELETE" query="model=3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT IN0bf7575c2fbfa1105b8d52492799b605,8bf7575c2fbfa1105b8d52492799b608"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>0bf7575c2fbfa1105b8d52492799b605</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6_current_en</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:22:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:22:58</sys_created_on>
+        <sys_id>8bf7575c2fbfa1105b8d52492799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6_table_name_en</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:22:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT INcc581f5c2fbfa1105b8d52492799b60a"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"cc581f5c2fbfa1105b8d52492799b60a","name":"plan","plan_signature":null}}</plan>
+        <plan_id>3ca71f1c2fbfa1105b8d52492799b6f6</plan_id>
+        <snapshot>594b27d02f33e1105b8d52492799b6fd</snapshot>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc581f5c2fbfa1105b8d52492799b60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <trigger display_value="">be3c83502fbfa1105b8d52492799b63c</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=3ca71f1c2fbfa1105b8d52492799b6f6"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>enrollment_set_to_pending_automation</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Class Enrollment Record","reference":"x_1083767_starfish_class_enrollment","reference_display":"Class Enrollment","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Enrollment set to pending Automation </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Enrollment set to pending Automation ">3ca71f1c2fbfa1105b8d52492799b6f6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7b48db5c2fbfa1105b8d52492799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_variable_value action="DELETE" query="document_key=7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=7b48db5c2fbfa1105b8d52492799b6b5^sys_idNOT IN4c58db5c2fbfa1105b8d52492799b6fb"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Enrollment set to pending Automation ">7b48db5c2fbfa1105b8d52492799b6b5</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_id>4c58db5c2fbfa1105b8d52492799b6fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=4c58db5c2fbfa1105b8d52492799b6fb"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>4c58db5c2fbfa1105b8d52492799b6fb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_id>4458db5c2fbfa1105b8d52492799b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <value>x_1083767_starfish_class_enrollment</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>4c58db5c2fbfa1105b8d52492799b6fb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_id>8058db5c2fbfa1105b8d52492799b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="DELETE" query="flow=7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=7b48db5c2fbfa1105b8d52492799b6b5^sys_idNOT INb348db5c2fbfa1105b8d52492799b6b6"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>7b48db5c2fbfa1105b8d52492799b6b5</id>
+        <name>Enrollment set to pending Automation </name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:23</sys_created_on>
+        <sys_id>b348db5c2fbfa1105b8d52492799b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=b348db5c2fbfa1105b8d52492799b6b6"/>
+    <sys_hub_flow_input action="DELETE" query="model=7b48db5c2fbfa1105b8d52492799b6b5^sys_idNOT IN0c58db5c2fbfa1105b8d52492799b6dc,b748db5c2fbfa1105b8d52492799b6b7"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Enrollment set to pending Automation ">7b48db5c2fbfa1105b8d52492799b6b5</model>
+        <model_id>7b48db5c2fbfa1105b8d52492799b6b5</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:23</sys_created_on>
+        <sys_id>0c58db5c2fbfa1105b8d52492799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Enrollment set to pending Automation ">7b48db5c2fbfa1105b8d52492799b6b5</model>
+        <model_id>7b48db5c2fbfa1105b8d52492799b6b5</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:23</sys_created_on>
+        <sys_id>b748db5c2fbfa1105b8d52492799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_hub_action_instance action="DELETE" query="flow=7b48db5c2fbfa1105b8d52492799b6b5^sys_idNOT IN4c58db5c2fbfa1105b8d52492799b6f9"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Enrollment set to pending Automation ">7b48db5c2fbfa1105b8d52492799b6b5</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_id>4c58db5c2fbfa1105b8d52492799b6f9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <ui_id>f2ed7494-47cb-4772-a493-eac765b2ea37</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=4c58db5c2fbfa1105b8d52492799b6f9"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c58db5c2fbfa1105b8d52492799b6f9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_id>4858db5c2fbfa1105b8d52492799b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <value>x_1083767_starfish_class_enrollment</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c58db5c2fbfa1105b8d52492799b6f9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_id>8458db5c2fbfa1105b8d52492799b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <value>enrollment_approval=pen</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=4c58db5c2fbfa1105b8d52492799b6f9"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>4c58db5c2fbfa1105b8d52492799b6f9</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_id>0458db5c2fbfa1105b8d52492799b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>4c58db5c2fbfa1105b8d52492799b6f9</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_id>8c58db5c2fbfa1105b8d52492799b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>4c58db5c2fbfa1105b8d52492799b6f9</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:24</sys_created_on>
+        <sys_id>4058db5c2fbfa1105b8d52492799b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=4c58db5c2fbfa1105b8d52492799b6f9"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=4c58db5c2fbfa1105b8d52492799b6f9"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_hub_flow_variable action="DELETE" query="model=7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5^sys_idNOT IN0458db5c2fbfa1105b8d52492799b6d9,4458db5c2fbfa1105b8d52492799b6e1"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:23</sys_created_on>
+        <sys_id>0458db5c2fbfa1105b8d52492799b6d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-29 08:24:23</sys_created_on>
+        <sys_id>4458db5c2fbfa1105b8d52492799b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:24:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_7b48db5c2fbfa1105b8d52492799b6b5"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>3ca71f1c2fbfa1105b8d52492799b6f6</sys_id>
+        <latest_snapshot>7b48db5c2fbfa1105b8d52492799b6b5</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch1-03-01-2023_03-13-2023_1716.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sys_hub_flow_3ca71f1c2fbfa1105b8d52492799b6f6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;enrollment_set_to_pending_automation&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current","label":"Trigger - Record Created➛Class Enrollment Record","reference":"x_1083767_starfish_class_enrollment","reference_display":"Class Enrollment","type":"reference","base_type":"reference","attributes":{}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;7b48db5c2fbfa1105b8d52492799b6b5&lt;/master_snapshot&gt;&lt;name&gt;Enrollment set to pending Automation &lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;be3c83502fbfa1105b8d52492799b63c&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:21:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Enrollment set to pending Automation &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_3ca71f1c2fbfa1105b8d52492799b6f6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-30 12:37:45&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="x_1083767_starfish_class_enrollment"&gt;^EQ&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;true&lt;/on_insert&gt;&lt;on_update&gt;false&lt;/on_update&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_on_extended&gt;false&lt;/run_on_extended&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 07:31:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;be3c83502fbfa1105b8d52492799b63c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;table&gt;x_1083767_starfish_class_enrollment&lt;/table&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_trigger_runner_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;data&gt;{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}&lt;/data&gt;&lt;identifier&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/identifier&gt;&lt;runner&gt;FDTriggerRunner&lt;/runner&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;84581f5c2fbfa1105b8d52492799b60a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;be3c83502fbfa1105b8d52492799b63c&lt;/trigger&gt;&lt;/sys_trigger_runner_mapping&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT IN84581f5c2fbfa1105b8d52492799b60a"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT IN4ff7575c2fbfa1105b8d52492799b60a"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Enrollment set to pending Automation "&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/flow&gt;&lt;name&gt;Created&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;4ff7575c2fbfa1105b8d52492799b60a&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:25&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4ff7575c2fbfa1105b8d52492799b60a"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;4ff7575c2fbfa1105b8d52492799b60a&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;0ff7575c2fbfa1105b8d52492799b60b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:22:58&lt;/sys_updated_on&gt;&lt;value&gt;^EQ&lt;/value&gt;&lt;variable display_value="Condition"&gt;66aadea0c31322002841b63b12d3aebf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;4ff7575c2fbfa1105b8d52492799b60a&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;c3f7575c2fbfa1105b8d52492799b60c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:22:58&lt;/sys_updated_on&gt;&lt;value&gt;x_1083767_starfish_class_enrollment&lt;/value&gt;&lt;variable display_value="Table"&gt;cfca92e0c31322002841b63b12d3ae00&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT INf4a71f1c2fbfa1105b8d52492799b6f7"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/id&gt;&lt;name&gt;Enrollment set to pending Automation &lt;/name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:21:27&lt;/sys_created_on&gt;&lt;sys_id&gt;f4a71f1c2fbfa1105b8d52492799b6f7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:21:27&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f4a71f1c2fbfa1105b8d52492799b6f7"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT IN0ff79f1c2fbfa1105b8d52492799b6ef,87f7575c2fbfa1105b8d52492799b606"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Enrollment set to pending Automation "&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/model&gt;&lt;model_id&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;0ff79f1c2fbfa1105b8d52492799b6ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Enrollment set to pending Automation "&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/model&gt;&lt;model_id&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;87f7575c2fbfa1105b8d52492799b606&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT IN4bf7575c2fbfa1105b8d52492799b611"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Enrollment set to pending Automation "&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;4bf7575c2fbfa1105b8d52492799b611&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 09:47:13&lt;/sys_updated_on&gt;&lt;ui_id&gt;f2ed7494-47cb-4772-a493-eac765b2ea37&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4bf7575c2fbfa1105b8d52492799b611"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4bf7575c2fbfa1105b8d52492799b611&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;87f7575c2fbfa1105b8d52492799b62d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:22:58&lt;/sys_updated_on&gt;&lt;value&gt;x_1083767_starfish_class_enrollment&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4bf7575c2fbfa1105b8d52492799b611&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;c3f7575c2fbfa1105b8d52492799b62d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:22:58&lt;/sys_updated_on&gt;&lt;value&gt;enrollment_approval=pen&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=4bf7575c2fbfa1105b8d52492799b611"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;4bf7575c2fbfa1105b8d52492799b611&lt;/id&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;43f7575c2fbfa1105b8d52492799b62d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:22:58&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Created_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;4bf7575c2fbfa1105b8d52492799b611&lt;/id&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;c7f7575c2fbfa1105b8d52492799b62c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:22:58&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;4bf7575c2fbfa1105b8d52492799b611&lt;/id&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;8ff7575c2fbfa1105b8d52492799b62c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:22:58&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=4bf7575c2fbfa1105b8d52492799b611"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=4bf7575c2fbfa1105b8d52492799b611"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT IN0bf7575c2fbfa1105b8d52492799b605,8bf7575c2fbfa1105b8d52492799b608"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;0bf7575c2fbfa1105b8d52492799b605&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Record&lt;/sys_name&gt;&lt;sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6_current_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:22:58&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;8bf7575c2fbfa1105b8d52492799b608&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Table Name&lt;/sys_name&gt;&lt;sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6_table_name_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:22:58&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=3ca71f1c2fbfa1105b8d52492799b6f6^sys_idNOT INcc581f5c2fbfa1105b8d52492799b60a"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerRecord&lt;/binding_strategy&gt;&lt;plan&gt;{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"cc581f5c2fbfa1105b8d52492799b60a","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;plan_id&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/plan_id&gt;&lt;snapshot&gt;594b27d02f33e1105b8d52492799b6fd&lt;/snapshot&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cc581f5c2fbfa1105b8d52492799b60a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;be3c83502fbfa1105b8d52492799b63c&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=3ca71f1c2fbfa1105b8d52492799b6f6"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;enrollment_set_to_pending_automation&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current","label":"Trigger - Record Created➛Class Enrollment Record","reference":"x_1083767_starfish_class_enrollment","reference_display":"Class Enrollment","type":"reference","base_type":"reference","attributes":{}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Enrollment set to pending Automation &lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Enrollment set to pending Automation "&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7b48db5c2fbfa1105b8d52492799b6b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:23&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=7b48db5c2fbfa1105b8d52492799b6b5^sys_idNOT IN4c58db5c2fbfa1105b8d52492799b6fb"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Enrollment set to pending Automation "&gt;7b48db5c2fbfa1105b8d52492799b6b5&lt;/flow&gt;&lt;name&gt;Created&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;4c58db5c2fbfa1105b8d52492799b6fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4c58db5c2fbfa1105b8d52492799b6fb"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;4c58db5c2fbfa1105b8d52492799b6fb&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;4458db5c2fbfa1105b8d52492799b6fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;value&gt;x_1083767_starfish_class_enrollment&lt;/value&gt;&lt;variable display_value="Table"&gt;cfca92e0c31322002841b63b12d3ae00&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;4c58db5c2fbfa1105b8d52492799b6fb&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;8058db5c2fbfa1105b8d52492799b6fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;value&gt;^EQ&lt;/value&gt;&lt;variable display_value="Condition"&gt;66aadea0c31322002841b63b12d3aebf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=7b48db5c2fbfa1105b8d52492799b6b5^sys_idNOT INb348db5c2fbfa1105b8d52492799b6b6"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;7b48db5c2fbfa1105b8d52492799b6b5&lt;/id&gt;&lt;name&gt;Enrollment set to pending Automation &lt;/name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:23&lt;/sys_created_on&gt;&lt;sys_id&gt;b348db5c2fbfa1105b8d52492799b6b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:23&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b348db5c2fbfa1105b8d52492799b6b6"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=7b48db5c2fbfa1105b8d52492799b6b5^sys_idNOT IN0c58db5c2fbfa1105b8d52492799b6dc,b748db5c2fbfa1105b8d52492799b6b7"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Enrollment set to pending Automation "&gt;7b48db5c2fbfa1105b8d52492799b6b5&lt;/model&gt;&lt;model_id&gt;7b48db5c2fbfa1105b8d52492799b6b5&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:23&lt;/sys_created_on&gt;&lt;sys_id&gt;0c58db5c2fbfa1105b8d52492799b6dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Enrollment set to pending Automation "&gt;7b48db5c2fbfa1105b8d52492799b6b5&lt;/model&gt;&lt;model_id&gt;7b48db5c2fbfa1105b8d52492799b6b5&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:23&lt;/sys_created_on&gt;&lt;sys_id&gt;b748db5c2fbfa1105b8d52492799b6b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=7b48db5c2fbfa1105b8d52492799b6b5^sys_idNOT IN4c58db5c2fbfa1105b8d52492799b6f9"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Enrollment set to pending Automation "&gt;7b48db5c2fbfa1105b8d52492799b6b5&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;4c58db5c2fbfa1105b8d52492799b6f9&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;ui_id&gt;f2ed7494-47cb-4772-a493-eac765b2ea37&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4c58db5c2fbfa1105b8d52492799b6f9"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4c58db5c2fbfa1105b8d52492799b6f9&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;4858db5c2fbfa1105b8d52492799b6fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;value&gt;x_1083767_starfish_class_enrollment&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4c58db5c2fbfa1105b8d52492799b6f9&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;8458db5c2fbfa1105b8d52492799b6fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;value&gt;enrollment_approval=pen&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=4c58db5c2fbfa1105b8d52492799b6f9"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;4c58db5c2fbfa1105b8d52492799b6f9&lt;/id&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;0458db5c2fbfa1105b8d52492799b6fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Created_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;4c58db5c2fbfa1105b8d52492799b6f9&lt;/id&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;8c58db5c2fbfa1105b8d52492799b6fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;4c58db5c2fbfa1105b8d52492799b6f9&lt;/id&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;4058db5c2fbfa1105b8d52492799b6fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:24&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=4c58db5c2fbfa1105b8d52492799b6f9"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=4c58db5c2fbfa1105b8d52492799b6f9"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5^sys_idNOT IN0458db5c2fbfa1105b8d52492799b6d9,4458db5c2fbfa1105b8d52492799b6e1"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:23&lt;/sys_created_on&gt;&lt;sys_id&gt;0458db5c2fbfa1105b8d52492799b6d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Record&lt;/sys_name&gt;&lt;sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:23&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;subhash.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 08:24:23&lt;/sys_created_on&gt;&lt;sys_id&gt;4458db5c2fbfa1105b8d52492799b6e1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Table Name&lt;/sys_name&gt;&lt;sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starfish Swimming Application"&gt;02aa7bd32f2361105b8d52492799b60d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;subhash.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 08:24:23&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7b48db5c2fbfa1105b8d52492799b6b5"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;3ca71f1c2fbfa1105b8d52492799b6f6&lt;/sys_id&gt;&lt;latest_snapshot&gt;7b48db5c2fbfa1105b8d52492799b6b5&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-utah-12-21-2022__patch1-03-01-2023_03-13-2023_1716.zip&lt;/compiler_build&gt;&lt;/sys_hub_flow&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>965728773</payload_hash>
+        <record_name>Enrollment set to pending Automation </record_name>
+        <reverted_from/>
+        <source>bab996582fbba1105b8d52492799b63b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-30 12:37:46</sys_created_on>
+        <sys_id>d9eb197c2f7725105b8d52492799b63e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890c4f3b480000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-30 12:37:46</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>91eb197cbb772510eb7c3930e8089d3e</update_guid>
+        <update_guid_history>91eb197cbb772510eb7c3930e8089d3e:965728773,1c581f5c96bfa1109163fc18b09aaf42:-125898021,b83a2f500633e11014413be371c69f45:87905779,1c581f5c96bfa1109163fc18b09aaf42:-125898021,bf48db5c9abfa110bb35b8257250d3a7:-1219370942,13f7575c1cbfa110e7dc62f4d4c9aa98:-246621775,c5a71f1c3abfa1109086d5e4955ba4fc:869908135</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-30 13:03:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>c3f968615bf44fdb96f4d27a4f181551</sys_id>
+        <sys_metadata>3ca71f1c2fbfa1105b8d52492799b6f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollment set to pending Automation </sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_3ca71f1c2fbfa1105b8d52492799b6f6</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_3ca71f1c2fbfa1105b8d52492799b6f6">d9eb197c2f7725105b8d52492799b63e</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-30 13:03:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="91cda2082ffb61105b8d52492799b67d" label="Class Enrollment" max_length="40" name="x_1083767_starfish_class_enrollment" type="collection">
-        <element label="Amount Paid" max_length="32" name="amount_paid" reference="sc_cat_item" type="reference"/>
+        <element label="Amount Paid" max_length="32" name="amount_paid" type="string"/>
         <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
         <element choice="3" default="ne" label="Enrollment Approval" max_length="40" name="enrollment_approval" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Enrolled" value="enr"/>
-                <element inactive_on_update="false" label="Not Enrolled" value="ne"/>
-                <element inactive_on_update="false" label="Pending" value="pen"/>
+                <element inactive_on_update="false" label="Enrolled" sequence="1" value="enr"/>
+                <element inactive_on_update="false" label="Not Enrolled" sequence="2" value="ne"/>
+                <element inactive_on_update="false" label="Pending" sequence="3" value="pen"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="can"/>
             </choice>
         </element>
         <element label="Instructor Name" mandatory="true" max_length="32" name="instructor_name" reference="x_1083767_starfish_instructor" type="reference"/>

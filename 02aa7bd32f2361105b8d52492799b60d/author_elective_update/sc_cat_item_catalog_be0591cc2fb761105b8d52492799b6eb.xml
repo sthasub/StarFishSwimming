@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Ice Cream">e0c4954c2fb761105b8d52492799b63f</sc_cat_item>
+        <sc_catalog display_value="Starfish Catalog">2ced90482ff361105b8d52492799b69a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>khusbhoo.kumari</sys_created_by>
+        <sys_created_on>2023-06-28 04:12:24</sys_created_on>
+        <sys_id>be0591cc2fb761105b8d52492799b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Catalog.Ice Cream</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_be0591cc2fb761105b8d52492799b6eb</sys_update_name>
+        <sys_updated_by>khusbhoo.kumari</sys_updated_by>
+        <sys_updated_on>2023-06-28 04:12:24</sys_updated_on>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sc_cat_item_catalog_be0591cc2fb761105b8d52492799b6eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Ice Cream">e0c4954c2fb761105b8d52492799b63f</sc_cat_item>
+        <sc_catalog display_value="Starfish Catalog">2ced90482ff361105b8d52492799b69a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>khusbhoo.kumari</sys_created_by>
+        <sys_created_on>2023-06-28 04:12:24</sys_created_on>
+        <sys_id>be0591cc2fb761105b8d52492799b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Catalog.Ice Cream</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_be0591cc2fb761105b8d52492799b6eb</sys_update_name>
+        <sys_updated_by>khusbhoo.kumari</sys_updated_by>
+        <sys_updated_on>2023-06-28 04:12:24</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>-2036571574</payload_hash>
+        <record_name>Starfish Catalog.Ice Cream</record_name>
+        <reverted_from/>
+        <source>7914e5582ff7a1105b8d52492799b62f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>khusbhoo.kumari</sys_created_by>
+        <sys_created_on>2023-06-28 23:56:50</sys_created_on>
+        <sys_id>8924a9582ff7a1105b8d52492799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189047037440000001</sys_recorded_at>
+        <sys_updated_by>khusbhoo.kumari</sys_updated_by>
+        <sys_updated_on>2023-06-28 23:56:50</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4524a9585ef7a110731fc6a2941427dc</update_guid>
+        <update_guid_history>4524a9585ef7a110731fc6a2941427dc:0,a153e11806f7a110e2343b93f5224820:-1010784175,b192ed94d1f7a1104ba250dc85f3fc75:0,efcfd5d0fff7a1102b634f8247f2acc9:-1010784175,763f19901ef7a1108cdfd798101b8c33:0,3f74564ca9bb61106b537e3ccd38c893:-1010784175,eb449e0c90bb61109fbd6a2e3d0d0cb0:0,d1f29e88bbbb6110282b1cfdc8b839ff:-1010784175,ddb21a889abb611008729e156565b10a:0,126ced44063b61106c91c7f1616b0c85:-1168443852,320591ccbdb76110f46bf9870f9dbfee:1841217448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Starfish Catalog.Ice Cream">37f836a02f3fe1105b8d52492799b6e0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-30 00:46:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>74e9497b39334d0e8a38a5451d68e591</sys_id>
+        <sys_metadata>be0591cc2fb761105b8d52492799b6eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Catalog.Ice Cream</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent display_value="Ice Cream">e0c4954c2fb761105b8d52492799b63f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_be0591cc2fb761105b8d52492799b6eb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_be0591cc2fb761105b8d52492799b6eb">8924a9582ff7a1105b8d52492799b6dc</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-30 00:46:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
