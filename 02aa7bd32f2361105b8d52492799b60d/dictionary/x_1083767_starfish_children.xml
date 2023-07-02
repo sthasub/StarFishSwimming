@@ -2,5 +2,6 @@
     <element db_object_id="e43bda4c2fbb61105b8d52492799b63e" extends="sys_user" label="Children" max_length="40" name="x_1083767_starfish_children" type="collection">
         <element label="Guardian Name" max_length="50" name="guardian_name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="School Id" max_length="40" name="school_id" type="string"/>
     </element>
 </database>

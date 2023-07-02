@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Starfish Instructor Reg Form">9d5810e52ff321105b8d52492799b603</sc_cat_item>
+        <sc_catalog display_value="Starfish Catalog">4bbef9d02f7ba1105b8d52492799b6cf</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-02 15:39:15</sys_created_on>
+        <sys_id>6f989ce52ff321105b8d52492799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Catalog.Starfishfish Instructor Reg Form</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_6f989ce52ff321105b8d52492799b6fc</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-02 15:39:15</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
