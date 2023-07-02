@@ -21,6 +21,7 @@
             </choice>
         </element>
         <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Student Id" max_length="40" name="student_id" read_only="true" type="string"/>
         <element label="Student Name" mandatory="true" max_length="32" name="student_name" reference="x_1083767_starfish_children" type="reference"/>
         <index name="index">
             <element name="amount_paid"/>
