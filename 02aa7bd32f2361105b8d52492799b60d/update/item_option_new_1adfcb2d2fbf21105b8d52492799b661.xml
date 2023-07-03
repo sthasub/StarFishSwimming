@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Starfish Children Registration">2ca810292ff321105b8d52492799b6a0</cat_item>
+        <cat_item display_value="Starfish Enrollment">7dd814292ff321105b8d52492799b68e</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -21,10 +21,10 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>last_name</field>
+        <field>end_date</field>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text>Type your last name</help_text>
+        <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
@@ -37,24 +37,24 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>last_name</name>
-        <order>3</order>
+        <name>end_date</name>
+        <order>4</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Last name</question_text>
+        <question_text>End Date</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_1083767_starfish_children</record_producer_table>
+        <record_producer_table>x_1083767_starfish_class_enrollment</record_producer_table>
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -75,19 +75,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-07-03 02:42:39</sys_created_on>
-        <sys_id>4f5072e92f3f21105b8d52492799b6d7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Last name</sys_name>
+        <sys_created_on>2023-07-03 05:00:25</sys_created_on>
+        <sys_id>1adfcb2d2fbf21105b8d52492799b661</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>End Date</sys_name>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
-        <sys_update_name>item_option_new_4f5072e92f3f21105b8d52492799b6d7</sys_update_name>
+        <sys_update_name>item_option_new_1adfcb2d2fbf21105b8d52492799b661</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 04:52:23</sys_updated_on>
+        <sys_updated_on>2023-07-03 05:21:48</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>9</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=4f5072e92f3f21105b8d52492799b6d7"/>
-    <fx_price action="delete_multiple" query="id=4f5072e92f3f21105b8d52492799b6d7"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1adfcb2d2fbf21105b8d52492799b661"/>
+    <fx_price action="delete_multiple" query="id=1adfcb2d2fbf21105b8d52492799b661"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>4f5072e92f3f21105b8d52492799b6d7</id>
+        <id>1adfcb2d2fbf21105b8d52492799b661</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-07-03 02:42:39</sys_created_on>
-        <sys_id>497076692f3f21105b8d52492799b6ee</sys_id>
+        <sys_created_on>2023-07-03 05:00:25</sys_created_on>
+        <sys_id>8fff036d2fbf21105b8d52492799b674</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 02:42:39</sys_updated_on>
+        <sys_updated_on>2023-07-03 05:00:25</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>4f5072e92f3f21105b8d52492799b6d7</id>
+        <id>1adfcb2d2fbf21105b8d52492799b661</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-07-03 02:42:39</sys_created_on>
-        <sys_id>cd7076692f3f21105b8d52492799b6ed</sys_id>
+        <sys_created_on>2023-07-03 05:00:25</sys_created_on>
+        <sys_id>07ff036d2fbf21105b8d52492799b674</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 02:42:39</sys_updated_on>
+        <sys_updated_on>2023-07-03 05:00:25</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

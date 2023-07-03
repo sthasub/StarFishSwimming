@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="student_name" label="Student Name" language="en" table="x_1083767_starfish_class_enrollment">
+    <sys_documentation element="support_details" label="Support details" language="en" table="x_1083767_starfish_class_enrollment">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>student_name</element>
+            <element>support_details</element>
             <help/>
             <hint/>
-            <label>Student Name</label>
+            <label>Support details</label>
             <language>en</language>
             <name>x_1083767_starfish_class_enrollment</name>
-            <plural>Student Names</plural>
+            <plural>Support details</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 05:37:34</sys_created_on>
+            <sys_created_on>2023-07-03 04:30:28</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Student Name</sys_name>
+            <sys_name>Support details</sys_name>
             <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
             <sys_policy/>
             <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
-            <sys_update_name>sys_documentation_x_1083767_starfish_class_enrollment_student_name_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1083767_starfish_class_enrollment_support_details_en</sys_update_name>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 05:37:34</sys_updated_on>
+            <sys_updated_on>2023-07-03 04:30:28</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

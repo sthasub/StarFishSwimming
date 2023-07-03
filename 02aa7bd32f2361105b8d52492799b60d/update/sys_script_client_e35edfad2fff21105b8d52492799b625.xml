@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>starfish_group</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>StarfishFormChangeBasedOnSelection</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    // g_form.removeOption('days', "MON - FRI");
+    // g_form.removeOption('days', "SAT & SUN");
+    // g_form.removeOption('days', "TUES, WED & FRI");
+    // g_form.removeOption('days', "SAT");
+    // g_form.removeOption('days', "SUN");
+    // g_form.removeOption('days', "MON & THURS");
+	g_form.clearOptions('days');
+	g_form.clearValue("duration");
+	
+    if (newValue == "Dolphin & Kingfish") {
+        g_form.addOption("days", "MON - FRI", "MON - FRI");
+        g_form.addOption("days", "SAT & SUN", "SAT & SUN");
+		g_form.setValue("duration","45 Minutes");
+    } else if (newValue == "Seahorse") {
+        g_form.addOption("days", "TUES, WED & FRI", "TUES, WED & FRI");
+        g_form.addOption("days", "MON & THURS", "MON & THURS");
+        g_form.addOption("days", "SAT", "SAT");
+        g_form.addOption("days", "SUN", "SUN");
+		g_form.setValue("duration","30 Minutes");
+    } else if (newValue == "Tadpoles & Frogs") {
+        g_form.addOption("days", "TUES, WED & FRI", "TUES, WED & FRI");
+        g_form.addOption("days", "SAT", "SAT");
+        g_form.addOption("days", "SUN", "SUN");
+		g_form.setValue("duration","30 Minutes");
+    } else if (newValue == "Penguin") {
+        g_form.addOption("days", "TUES, WED & FRI", "TUES, WED & FRI");
+        g_form.addOption("days", "MON - FRI", "MON - FRI");
+        g_form.addOption("days", "SAT", "SAT");
+        g_form.addOption("days", "SUN", "SUN");
+		g_form.setValue("duration","30 Minutes");
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-03 06:29:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e35edfad2fff21105b8d52492799b625</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>StarfishFormChangeBasedOnSelection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_script_client_e35edfad2fff21105b8d52492799b625</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-03 07:25:41</sys_updated_on>
+        <table>x_1083767_starfish_class_enrollment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

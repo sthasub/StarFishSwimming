@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3d3a8ba52fbf21105b8d52492799b697" sys_domain="global" table="x_1083767_starfish_class_enrollment" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 04:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f93a8ba52fbf21105b8d52492799b69a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1083767_starfish_class_enrollment" name="x_1083767_starfish_class_enrollment" sys_domain="global" view="Default view">3d3a8ba52fbf21105b8d52492799b697</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_class_enrollment" sys_domain="global" view="Default view">09573a002f7f61105b8d52492799b693</sys_ui_section>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 04:35:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1083767_starfish_class_enrollment</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 04:35:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d3a8ba52fbf21105b8d52492799b697</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1083767_starfish_class_enrollment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3d3a8ba52fbf21105b8d52492799b697</sys_update_name>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 04:35:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

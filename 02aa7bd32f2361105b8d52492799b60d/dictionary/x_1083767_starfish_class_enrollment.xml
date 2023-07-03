@@ -3,20 +3,15 @@
         <element label="Amount Paid" max_length="32" name="amount_paid" type="string"/>
         <element choice="1" label="Days" max_length="40" name="days" type="choice">
             <choice>
-                <element inactive_on_update="false" label="MON &amp; THURS" value="MON &amp; THURS"/>
-                <element inactive_on_update="false" label="MON - FRI" value="MON - FRI"/>
-                <element inactive_on_update="false" label="SAT" value="SAT"/>
-                <element inactive_on_update="false" label="SAT &amp; SUN" value="SAT &amp; SUN"/>
-                <element inactive_on_update="false" label="SUN" value="SUN"/>
-                <element inactive_on_update="false" label="TUES, WED &amp; FRI" value="TUES, WED &amp; FRI"/>
+                <element inactive="true" inactive_on_update="true" label="MON &amp; THURS" value="MON &amp; THURS"/>
+                <element inactive="true" inactive_on_update="true" label="MON - FRI" value="MON - FRI"/>
+                <element inactive="true" inactive_on_update="true" label="SAT" value="SAT"/>
+                <element inactive="true" inactive_on_update="true" label="SAT &amp; SUN" value="SAT &amp; SUN"/>
+                <element inactive="true" inactive_on_update="true" label="SUN" value="SUN"/>
+                <element inactive="true" inactive_on_update="true" label="TUES, WED &amp; FRI" value="TUES, WED &amp; FRI"/>
             </choice>
         </element>
-        <element choice="1" label="Duration" max_length="40" name="duration" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="30 MINS" value="30 MINS"/>
-                <element inactive_on_update="false" label="45 MINS" value="45 MINS"/>
-            </choice>
-        </element>
+        <element label="Duration" max_length="40" name="duration" read_only="true" type="string"/>
         <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
         <element choice="3" default="ne" label="Enrollment Approval" max_length="40" name="enrollment_approval" read_only="true" type="choice">
             <choice>
@@ -47,7 +42,9 @@
         </element>
         <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
         <element label="Student Id" max_length="40" name="student_id" read_only="true" type="string"/>
-        <element label="Student Name" mandatory="true" max_length="32" name="student_name" reference="x_1083767_starfish_children" type="reference"/>
+        <element label="Student Name" max_length="32" name="student_name" reference="x_1083767_starfish_children" type="reference"/>
+        <element label="Support details" max_length="1000" name="support_details" type="string"/>
+        <element label="Support Need" max_length="40" name="support_need" type="boolean"/>
         <element choice="1" label="Timings" max_length="40" name="timings" type="choice">
             <choice>
                 <element inactive_on_update="false" label="11:00AM - 12:30PM" value="11:00AM - 12:30PM"/>

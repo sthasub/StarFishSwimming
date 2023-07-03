@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="student_name" table="x_1083767_starfish_class_enrollment">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="support_need" table="x_1083767_starfish_class_enrollment">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Student Name</column_label>
+        <column_label>Support Need</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,21 +26,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>student_name</element>
+        <element>support_need</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
+        <max_length>40</max_length>
         <name>x_1083767_starfish_class_enrollment</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1083767_starfish_children">x_1083767_starfish_children</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-07-03 05:37:34</sys_created_on>
-        <sys_name>Student Name</sys_name>
+        <sys_created_on>2023-07-03 04:26:32</sys_created_on>
+        <sys_name>Support Need</sys_name>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
-        <sys_update_name>sys_dictionary_x_1083767_starfish_class_enrollment_student_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1083767_starfish_class_enrollment_support_need</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 05:37:34</sys_updated_on>
+        <sys_updated_on>2023-07-03 04:26:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Starfish Enrollment">7dd814292ff321105b8d52492799b68e</catalog_item>
+        <catalog_variable>IO:87a15fad2fbf21105b8d52492799b69f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-03 05:13:30</sys_created_on>
+        <sys_id>2be2d7212fff21105b8d52492799b661</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>support_details</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2be2d7212fff21105b8d52492799b661</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-03 05:15:03</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Support Needed">9ae157ed2fbf21105b8d52492799b660</ui_policy>
+        <variable>support_details</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
