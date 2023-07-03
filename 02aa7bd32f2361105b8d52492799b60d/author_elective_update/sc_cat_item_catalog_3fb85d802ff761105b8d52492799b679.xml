@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Swim Lesson School Term">4218d1802ff761105b8d52492799b6e6</sc_cat_item>
+        <sc_catalog display_value="Starfish Catalog">2ced90482ff361105b8d52492799b69a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>khusbhoo.kumari</sys_created_by>
+        <sys_created_on>2023-06-28 04:28:34</sys_created_on>
+        <sys_id>3fb85d802ff761105b8d52492799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Catalog.Swim Lesson School Term</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3fb85d802ff761105b8d52492799b679</sys_update_name>
+        <sys_updated_by>khusbhoo.kumari</sys_updated_by>
+        <sys_updated_on>2023-06-28 04:28:34</sys_updated_on>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sc_cat_item_catalog_3fb85d802ff761105b8d52492799b679</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Swim Lesson School Term">4218d1802ff761105b8d52492799b6e6</sc_cat_item>
+        <sc_catalog display_value="Starfish Catalog">2ced90482ff361105b8d52492799b69a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>khusbhoo.kumari</sys_created_by>
+        <sys_created_on>2023-06-28 04:28:34</sys_created_on>
+        <sys_id>3fb85d802ff761105b8d52492799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Catalog.Swim Lesson School Term</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3fb85d802ff761105b8d52492799b679</sys_update_name>
+        <sys_updated_by>khusbhoo.kumari</sys_updated_by>
+        <sys_updated_on>2023-06-28 04:28:34</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>1691612871</payload_hash>
+        <record_name>Starfish Catalog.Swim Lesson School Term</record_name>
+        <reverted_from/>
+        <source>aacb80a52fb321105b8d52492799b627</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-02 14:43:29</sys_created_on>
+        <sys_id>eadb84a52fb321105b8d52492799b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189170f0d6f0000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-02 14:43:29</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>a6db84a5b2b3211067d9c3db2aaae837</update_guid>
+        <update_guid_history>a6db84a5b2b3211067d9c3db2aaae837:0,fe5bcc25f0b321105df8ec912af66e4d:504188446,32910c6989732110594b5116f42fcca0:0,bb303b952f332110b9bb0a3951a986d4:-499499298,3424a95833f7a1102ea8338c86b63fbf:0,dc53a11890f7a11011e7fdf015419d42:504188446,2992ed94a7f7a110e0085b34f92d8b64:0,82cf95d011f7a1109d191e62a6390bbd:504188446,ea3f199028f7a110a6c847139221d422:0,6274164cb6bb61104aca23e44748c26b:504188446,a3449e0c86bb611049c725ea6e5f2493:0,84f29e88b8bb61105b832a4b4ce75b0b:504188446,5db2d68813bb61107bd0e2ac1ace44f9:0,056cad440c3b6110d1106ece376a795b:-2070838591,bfb85d8015f761106d66b9d2dc60bc7b:-2012129739</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Starfish Catalog.Swim Lesson School Term">76193be92f7361105b8d52492799b672</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>khusbhoo.kumari</sys_created_by>
+        <sys_created_on>2023-07-03 08:00:04</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0c7d270b0f0045e58fb7600429cea7b9</sys_id>
+        <sys_metadata>3fb85d802ff761105b8d52492799b679</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Catalog.Swim Lesson School Term</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent display_value="Swim Lesson School Term">4218d1802ff761105b8d52492799b6e6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_3fb85d802ff761105b8d52492799b679</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_3fb85d802ff761105b8d52492799b679">eadb84a52fb321105b8d52492799b637</sys_update_version>
+        <sys_updated_by>khusbhoo.kumari</sys_updated_by>
+        <sys_updated_on>2023-07-03 08:00:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
