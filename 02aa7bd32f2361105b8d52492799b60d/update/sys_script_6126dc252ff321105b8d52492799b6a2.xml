@@ -31,7 +31,7 @@
 
 	// Add your code here// Add your code here
 	var gr = new GlideRecord('x_1083767_starfish_children');
-	var gc = gr.addQuery('school_id',current.school_id);
+	gr.addQuery('school_id',current.school_id);
 	//gc.addOrCondition('email', current.email);
 	gr.query();
 	if(gr.next()){
@@ -48,7 +48,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6126dc252ff321105b8d52492799b6a2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>StarfishChildrenDuplicateEntryCheck</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name>sys_script_6126dc252ff321105b8d52492799b6a2</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-02 15:35:11</sys_updated_on>
+        <sys_updated_on>2023-07-02 23:49:30</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
