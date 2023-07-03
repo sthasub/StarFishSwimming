@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="duration" table="x_1083767_starfish_class_enrollment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>duration</element>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:13:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>duration</sys_name>
+            <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+            <sys_update_name>sys_choice_x_1083767_starfish_class_enrollment_duration</sys_update_name>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:13:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>duration</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>30 MINS</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:13:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:13:39</sys_updated_on>
+            <value>30 MINS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>duration</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>45 MINS</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:13:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:13:51</sys_updated_on>
+            <value>45 MINS</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

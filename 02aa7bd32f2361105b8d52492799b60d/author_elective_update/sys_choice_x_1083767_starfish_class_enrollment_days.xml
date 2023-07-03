@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="days" table="x_1083767_starfish_class_enrollment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>days</element>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:12:03</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>days</sys_name>
+            <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+            <sys_update_name>sys_choice_x_1083767_starfish_class_enrollment_days</sys_update_name>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:12:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MON &amp; THURS</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:12:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:12:35</sys_updated_on>
+            <value>MON &amp; THURS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MON - FRI</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:12:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:12:50</sys_updated_on>
+            <value>MON - FRI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAT</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:12:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:12:13</sys_updated_on>
+            <value>SAT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAT &amp; SUN</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:13:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:13:06</sys_updated_on>
+            <value>SAT &amp; SUN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SUN</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:12:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:12:21</sys_updated_on>
+            <value>SUN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TUES, WED &amp; FRI</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:12:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:12:03</sys_updated_on>
+            <value>TUES, WED &amp; FRI</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

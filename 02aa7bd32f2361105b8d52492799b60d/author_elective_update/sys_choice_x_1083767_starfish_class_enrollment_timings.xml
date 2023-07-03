@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="timings" table="x_1083767_starfish_class_enrollment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>timings</element>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:05:10</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>timings</sys_name>
+            <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+            <sys_update_name>sys_choice_x_1083767_starfish_class_enrollment_timings</sys_update_name>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:05:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timings</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11:00AM - 12:30PM</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:05:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:05:46</sys_updated_on>
+            <value>11:00AM - 12:30PM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timings</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11:30AM - 12:30PM</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:06:09</sys_updated_on>
+            <value>11:30AM - 12:30PM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timings</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3:30PM -  6:00PM</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:06:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:06:46</sys_updated_on>
+            <value>3:30PM -  6:00PM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timings</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3:45PM - 6:00PM</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:09:37</sys_updated_on>
+            <value>3:45PM - 6:00PM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timings</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8:00AM - 12:00PM</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:07:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:07:20</sys_updated_on>
+            <value>8:00AM - 12:00PM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timings</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8:00AM - 12:30PM</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:08:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:08:41</sys_updated_on>
+            <value>8:00AM - 12:30PM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timings</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8:30 AM - 11:30 AM</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:07:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:07:46</sys_updated_on>
+            <value>8:30 AM - 11:30 AM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timings</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8:30AM - 12:00PM</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:09:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:09:11</sys_updated_on>
+            <value>8:30AM - 12:00PM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>timings</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9:00AM - 11:00AM</label>
+            <language>en</language>
+            <name>x_1083767_starfish_class_enrollment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-03 03:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-03 03:05:10</sys_updated_on>
+            <value>9:00AM - 11:00AM</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
