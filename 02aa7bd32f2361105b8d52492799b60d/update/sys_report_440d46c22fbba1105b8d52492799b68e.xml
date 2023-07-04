@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
-        <additional_groupby>start_date</additional_groupby>
+        <additional_groupby>starfish_group</additional_groupby>
         <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
@@ -19,7 +19,7 @@
         <chart_subtitle_color/>
         <chart_subtitle_size>14</chart_subtitle_size>
         <chart_subtitle_style>normal</chart_subtitle_style>
-        <chart_title>Student Enrolled by Instructor</chart_title>
+        <chart_title/>
         <chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
         <chart_title_size>16</chart_title_size>
         <chart_title_style>normal</chart_title_style>
@@ -45,8 +45,8 @@
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>starfish_group</field>
-        <field_list>number,student_name,instructor_name,session,start_date,end_date,enrollment_approval</field_list>
+        <field>enrollment_approval</field>
+        <field_list>number,student_id,instructor_name,student_name,start_date,end_date,enrollment_approval,session,support_need,starfish_group,duration,days,timings,sys_created_on</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -54,7 +54,7 @@
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
-        <interval>month</interval>
+        <interval>year</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>true</is_scheduled>
@@ -104,27 +104,27 @@
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-06-30 11:57:16</sys_created_on>
-        <sys_id>44a2d5f02f7725105b8d52492799b6d8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Starfish Class Report</sys_name>
+        <sys_created_on>2023-07-04 13:24:42</sys_created_on>
+        <sys_id>440d46c22fbba1105b8d52492799b68e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Enrollment Report</sys_name>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
-        <sys_update_name>sys_report_44a2d5f02f7725105b8d52492799b6d8</sys_update_name>
+        <sys_update_name>sys_report_440d46c22fbba1105b8d52492799b68e</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-04 13:22:30</sys_updated_on>
+        <sys_updated_on>2023-07-04 13:26:38</sys_updated_on>
         <table>x_1083767_starfish_class_enrollment</table>
-        <title>Starfish Class Report</title>
+        <title>Enrollment Report</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>instructor_name</trend_field>
-        <type>bar</type>
+        <trend_field/>
+        <type>pie</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>group</user>
+        <user>ff5437832f2321105b8d52492799b684</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
@@ -135,7 +135,7 @@
         <x_axis_label_size>11</x_axis_label_size>
         <x_axis_label_tilt>0</x_axis_label_tilt>
         <x_axis_opposite>false</x_axis_opposite>
-        <x_axis_title>Instructors</x_axis_title>
+        <x_axis_title/>
         <x_axis_title_bold>true</x_axis_title_bold>
         <x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color>
         <x_axis_title_size>12</x_axis_title_size>
@@ -150,7 +150,7 @@
         <y_axis_label_size>11</y_axis_label_size>
         <y_axis_label_tilt>0</y_axis_label_tilt>
         <y_axis_opposite>false</y_axis_opposite>
-        <y_axis_title>Number of Students (Children)</y_axis_title>
+        <y_axis_title/>
         <y_axis_title_bold>true</y_axis_title_bold>
         <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
         <y_axis_title_size>12</y_axis_title_size>

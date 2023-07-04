@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="DELETE">
+        <dashboard display_value="Starfish Swim Dashboard">dd50124a2fbba1105b8d52492799b6f5</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>2</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 13:44:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f811a8a2fbba1105b8d52492799b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dd50124a2fbba1105b8d52492799b6f5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_6f811a8a2fbba1105b8d52492799b693</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 13:44:37</sys_updated_on>
+        <tab display_value="Starfish Swim Dashbo - New Tab 2">2b811a8a2fbba1105b8d52492799b691</tab>
+    </pa_m2m_dashboard_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>pa_m2m_dashboard_tabs_6f811a8a2fbba1105b8d52492799b693</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs"><pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE"><dashboard display_value="Starfish Swim Dashboard">dd50124a2fbba1105b8d52492799b6f5</dashboard><home>false</home><homepage/><order>2</order><sys_class_name>pa_m2m_dashboard_tabs</sys_class_name><sys_created_by>subhash.shrestha</sys_created_by><sys_created_on>2023-07-04 13:44:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f811a8a2fbba1105b8d52492799b693</sys_id><sys_mod_count>0</sys_mod_count><sys_name>dd50124a2fbba1105b8d52492799b6f5</sys_name><sys_overrides/><sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package><sys_policy/><sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope><sys_update_name>pa_m2m_dashboard_tabs_6f811a8a2fbba1105b8d52492799b693</sys_update_name><sys_updated_by>subhash.shrestha</sys_updated_by><sys_updated_on>2023-07-04 13:44:37</sys_updated_on><tab display_value="Starfish Swim Dashbo - New Tab 2">2b811a8a2fbba1105b8d52492799b691</tab></pa_m2m_dashboard_tabs></record_update>]]></payload>
+        <payload_hash>1396368973</payload_hash>
+        <record_name>dd50124a2fbba1105b8d52492799b6f5</record_name>
+        <reverted_from/>
+        <source>afddbfb02fff25105b8d52492799b6c8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 13:44:37</sys_created_on>
+        <sys_id>eb811a8a2fbba1105b8d52492799b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1892125deae0000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 13:44:37</sys_updated_on>
+        <type>Dashboard Tab</type>
+        <update_guid>23811a8a6fbba110282bce98138ec995</update_guid>
+        <update_guid_history>23811a8a6fbba110282bce98138ec995:1396368973</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Starfish Swim Dashboard">c291d68a2fbba1105b8d52492799b60c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 13:44:47</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_tabs">pa_m2m_dashboard_tabs</sys_db_object>
+        <sys_id>13143ed3040f40c49bfe95d645a03944</sys_id>
+        <sys_metadata>6f811a8a2fbba1105b8d52492799b693</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dd50124a2fbba1105b8d52492799b6f5</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent display_value="Starfish Swim Dashboard">dd50124a2fbba1105b8d52492799b6f5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_tabs_6f811a8a2fbba1105b8d52492799b693</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_tabs_6f811a8a2fbba1105b8d52492799b693">eb811a8a2fbba1105b8d52492799b695</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 13:44:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
