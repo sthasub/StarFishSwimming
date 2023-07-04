@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="91cda2082ffb61105b8d52492799b67d" label="Class Enrollment" max_length="40" name="x_1083767_starfish_class_enrollment" type="collection">
+    <element audit="true" db_object_id="91cda2082ffb61105b8d52492799b67d" label="Class Enrollment" max_length="40" name="x_1083767_starfish_class_enrollment" type="collection">
         <element label="Amount Paid" max_length="32" name="amount_paid" type="string"/>
         <element choice="1" label="Days" max_length="40" name="days" type="choice">
             <choice>

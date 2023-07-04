@@ -4,169 +4,197 @@
             <element>school_id</element>
             <position>0</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1e16cf612fbf21105b8d52492799b664</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>374fa8c62f37a1105b8d52492799b6aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_name</element>
+            <position>1</position>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>7f4fa8c62f37a1105b8d52492799b6aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>first_name</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1216cf612fbf21105b8d52492799b665</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>334f2cc62f37a1105b8d52492799b6a9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>last_name</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1616cf612fbf21105b8d52492799b665</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>374f2cc62f37a1105b8d52492799b6a9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gender</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1a16cf612fbf21105b8d52492799b665</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>3b4f2cc62f37a1105b8d52492799b6a9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>guardian_name</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1e16cf612fbf21105b8d52492799b665</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>3f4f2cc62f37a1105b8d52492799b6a9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>user_password</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1216cf612fbf21105b8d52492799b666</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>334f2cc62f37a1105b8d52492799b6aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>password_needs_reset</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1616cf612fbf21105b8d52492799b666</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>374f2cc62f37a1105b8d52492799b6aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>locked_out</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1a16cf612fbf21105b8d52492799b666</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>3b4f2cc62f37a1105b8d52492799b6aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1e16cf612fbf21105b8d52492799b666</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>3f4f2cc62f37a1105b8d52492799b6aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1216cf612fbf21105b8d52492799b667</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>334f2cc62f37a1105b8d52492799b6ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>email</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1616cf612fbf21105b8d52492799b667</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>374f2cc62f37a1105b8d52492799b6ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mobile_phone</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>subhash.shrestha</sys_created_by>
-            <sys_created_on>2023-07-03 04:17:13</sys_created_on>
-            <sys_id>1a16cf612fbf21105b8d52492799b667</sys_id>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>3b4f2cc62f37a1105b8d52492799b6ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
             <sys_updated_by>subhash.shrestha</sys_updated_by>
-            <sys_updated_on>2023-07-03 04:17:13</sys_updated_on>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-04 06:35:22</sys_created_on>
+            <sys_id>3f4f2cc62f37a1105b8d52492799b6ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1083767_starfish_children" sys_domain="global" view="Default view">6e36364c2f3f61105b8d52492799b676</sys_ui_section>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-04 06:35:22</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

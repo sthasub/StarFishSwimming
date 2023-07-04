@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>When Student create an account notification will send to HR.</description>
+        <internal_name>account_creation_notification</internal_name>
+        <label_cache>[{"name":"Created_1.current.number","label":"Trigger - Record Created➛Children Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1083767_starfish_children","column_name":"number"},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Children Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1083767_starfish_children","column_name":"sys_created_on"},{"name":"Created_1.current.name","label":"Trigger - Record Created➛Children Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1083767_starfish_children","column_name":"name"},{"name":"Created_1.current","label":"Trigger - Record Created➛Children Record","reference":"x_1083767_starfish_children","reference_display":"Children","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Children Table","reference":"x_1083767_starfish_children","reference_display":"Children","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Children Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"x_1083767_starfish_children","column_name":"email"},{"name":"7055d286-d583-4ce6-a00e-6c7feaf73161.__action_status__.message","label":"1 - Send Notification➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master_snapshot>272e54462ff3a1105b8d52492799b6b5</master_snapshot>
+        <name>Starfish Account creation notification</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>715ca0062f37a1105b8d52492799b6eb</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 03:47:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80e8cc4e2f73a1105b8d52492799b6e0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Starfish Account creation notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_hub_flow_80e8cc4e2f73a1105b8d52492799b6e0</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:25</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1083767_starfish_children">numberISNOTEMPTY<item endquery="false" field="number" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>715ca0062f37a1105b8d52492799b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:24</sys_updated_on>
+        <table>x_1083767_starfish_children</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>80e8cc4e2f73a1105b8d52492799b6e0</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:24</sys_created_on>
+        <sys_id>3d5ca0062f37a1105b8d52492799b6eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:24</sys_updated_on>
+        <trigger display_value="">715ca0062f37a1105b8d52492799b6eb</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=80e8cc4e2f73a1105b8d52492799b6e0^sys_idNOT IN3d5ca0062f37a1105b8d52492799b6eb"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=80e8cc4e2f73a1105b8d52492799b6e0^sys_idNOT IN7e7b9c422ff3a1105b8d52492799b66a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Starfish Account creation notification">80e8cc4e2f73a1105b8d52492799b6e0</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>7e7b9c422ff3a1105b8d52492799b66a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:25</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e7b9c422ff3a1105b8d52492799b66a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7e7b9c422ff3a1105b8d52492799b66a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>367b9c422ff3a1105b8d52492799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:08:44</sys_updated_on>
+        <value>x_1083767_starfish_children</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7e7b9c422ff3a1105b8d52492799b66a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>7e7b9c422ff3a1105b8d52492799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:08:44</sys_updated_on>
+        <value>numberISNOTEMPTY</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=80e8cc4e2f73a1105b8d52492799b6e0^sys_idNOT IN80e8cc4e2f73a1105b8d52492799b6e2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>80e8cc4e2f73a1105b8d52492799b6e0</id>
+        <name>Account creation notification</name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 03:47:27</sys_created_on>
+        <sys_id>80e8cc4e2f73a1105b8d52492799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 03:47:27</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=80e8cc4e2f73a1105b8d52492799b6e2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=80e8cc4e2f73a1105b8d52492799b6e0^sys_idNOT IN767b9c422ff3a1105b8d52492799b65f,f27b9c422ff3a1105b8d52492799b666"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Starfish Account creation notification">80e8cc4e2f73a1105b8d52492799b6e0</model>
+        <model_id>80e8cc4e2f73a1105b8d52492799b6e0</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_80e8cc4e2f73a1105b8d52492799b6e0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>767b9c422ff3a1105b8d52492799b65f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Starfish Account creation notification">80e8cc4e2f73a1105b8d52492799b6e0</model>
+        <model_id>80e8cc4e2f73a1105b8d52492799b6e0</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_80e8cc4e2f73a1105b8d52492799b6e0</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>f27b9c422ff3a1105b8d52492799b666</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=80e8cc4e2f73a1105b8d52492799b6e0^sys_idNOT IN767b9c422ff3a1105b8d52492799b671,773bac822f37a1105b8d52492799b677"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Starfish Account creation notification">80e8cc4e2f73a1105b8d52492799b6e0</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>767b9c422ff3a1105b8d52492799b671</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:25:27</sys_updated_on>
+        <ui_id>7055d286-d583-4ce6-a00e-6c7feaf73161</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=767b9c422ff3a1105b8d52492799b671"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>767b9c422ff3a1105b8d52492799b671</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:17:43</sys_created_on>
+        <sys_id>da8d18062ff3a1105b8d52492799b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:17:43</sys_updated_on>
+        <value>bdc9d0022ff3a1105b8d52492799b631</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>767b9c422ff3a1105b8d52492799b671</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>fe7b9c422ff3a1105b8d52492799b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:08:44</sys_updated_on>
+        <value>x_1083767_starfish_children</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=767b9c422ff3a1105b8d52492799b671"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>767b9c422ff3a1105b8d52492799b671</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:17:43</sys_created_on>
+        <sys_id>568d18062ff3a1105b8d52492799b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:17:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>767b9c422ff3a1105b8d52492799b671</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>7e7b9c422ff3a1105b8d52492799b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:08:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>767b9c422ff3a1105b8d52492799b671</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>b67b9c422ff3a1105b8d52492799b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:08:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=767b9c422ff3a1105b8d52492799b671"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=767b9c422ff3a1105b8d52492799b671"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Starfish Account creation notification">80e8cc4e2f73a1105b8d52492799b6e0</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:17:37</sys_created_on>
+        <sys_id>773bac822f37a1105b8d52492799b677</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:25:27</sys_updated_on>
+        <ui_id>239bf07b-4654-4cad-a6d9-cb8cc1c9f88b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=773bac822f37a1105b8d52492799b677"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>773bac822f37a1105b8d52492799b677</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:17:37</sys_created_on>
+        <sys_id>7f3bac822f37a1105b8d52492799b67b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <value/>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>773bac822f37a1105b8d52492799b677</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:17:37</sys_created_on>
+        <sys_id>bb3bac822f37a1105b8d52492799b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:17:37</sys_updated_on>
+        <value>x_1083767_starfish_children</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>773bac822f37a1105b8d52492799b677</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:17:37</sys_created_on>
+        <sys_id>bf3bac822f37a1105b8d52492799b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:17:37</sys_updated_on>
+        <value>rajbeer.saini@example.com,khushboo.snow@gmail.com,subh.stha@gmail.com,raju.vanamala@example.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>773bac822f37a1105b8d52492799b677</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:17:37</sys_created_on>
+        <sys_id>f73bac822f37a1105b8d52492799b67b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=773bac822f37a1105b8d52492799b677"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>773bac822f37a1105b8d52492799b677</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:17:37</sys_created_on>
+        <sys_id>f33bac822f37a1105b8d52492799b67a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;The new Account has been created&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0eb7ba36-87c1-4438-9147-f582d5f405df}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0eb7ba36-87c1-4438-9147-f582d5f405df}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Children Record &amp;gt; Created"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0eb7ba36-87c1-4438-9147-f582d5f405df" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; for&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:7d8fb7b2-7caa-4fb9-a990-e8f814e3edf5}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:7d8fb7b2-7caa-4fb9-a990-e8f814e3edf5}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Children Record &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_7d8fb7b2-7caa-4fb9-a990-e8f814e3edf5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Record ID:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f42facbe-2c59-4855-b45d-a26f5841cae7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f42facbe-2c59-4855-b45d-a26f5841cae7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Children Record &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f42facbe-2c59-4855-b45d-a26f5841cae7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>773bac822f37a1105b8d52492799b677</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:17:37</sys_created_on>
+        <sys_id>3f3bac822f37a1105b8d52492799b67a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>New account created. Record ID{{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>773bac822f37a1105b8d52492799b677</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:17:37</sys_created_on>
+        <sys_id>fb3bac822f37a1105b8d52492799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:17:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>773bac822f37a1105b8d52492799b677</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:17:37</sys_created_on>
+        <sys_id>b73bac822f37a1105b8d52492799b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:17:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>773bac822f37a1105b8d52492799b677</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:17:37</sys_created_on>
+        <sys_id>7b3bac822f37a1105b8d52492799b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:17:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=773bac822f37a1105b8d52492799b677^sys_idNOT IN034c60062f37a1105b8d52492799b627"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_body</input_name>
+        <instance>773bac822f37a1105b8d52492799b677</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_body":{"scriptActive":false}}</script>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:13</sys_created_on>
+        <sys_id>034c60062f37a1105b8d52492799b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=773bac822f37a1105b8d52492799b677"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=80e8cc4e2f73a1105b8d52492799b6e0^sys_idNOT IN0b4c60062f37a1105b8d52492799b62b,174c60062f37a1105b8d52492799b62c,474c60062f37a1105b8d52492799b62b,534c60062f37a1105b8d52492799b62c,834c60062f37a1105b8d52492799b62b,8b4c60062f37a1105b8d52492799b62a,8f4c60062f37a1105b8d52492799b62b,cb4c60062f37a1105b8d52492799b62b"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>80e8cc4e2f73a1105b8d52492799b6e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.sys_created_on}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:13</sys_created_on>
+        <sys_id>0b4c60062f37a1105b8d52492799b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c18a93e4-cdc0-4ef3-a645-4cfcd18f8882</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>80e8cc4e2f73a1105b8d52492799b6e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:13</sys_created_on>
+        <sys_id>174c60062f37a1105b8d52492799b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f42facbe-2c59-4855-b45d-a26f5841cae7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>80e8cc4e2f73a1105b8d52492799b6e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:13</sys_created_on>
+        <sys_id>474c60062f37a1105b8d52492799b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2d40bf2b-9cc0-4ee5-8961-b5a97c1deb11</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>80e8cc4e2f73a1105b8d52492799b6e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:13</sys_created_on>
+        <sys_id>534c60062f37a1105b8d52492799b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7d8fb7b2-7caa-4fb9-a990-e8f814e3edf5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>80e8cc4e2f73a1105b8d52492799b6e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:13</sys_created_on>
+        <sys_id>834c60062f37a1105b8d52492799b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b1162a54-8a4f-4182-926a-e4a697ea4c8a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>80e8cc4e2f73a1105b8d52492799b6e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:13</sys_created_on>
+        <sys_id>8b4c60062f37a1105b8d52492799b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>187871fa-ddd7-4459-9e0c-05638b64dcd6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>80e8cc4e2f73a1105b8d52492799b6e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.sys_created_on}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:13</sys_created_on>
+        <sys_id>8f4c60062f37a1105b8d52492799b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0eb7ba36-87c1-4438-9147-f582d5f405df</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>80e8cc4e2f73a1105b8d52492799b6e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:13</sys_created_on>
+        <sys_id>cb4c60062f37a1105b8d52492799b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>96075617-6132-4064-8055-cac2867f2513</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_80e8cc4e2f73a1105b8d52492799b6e0^sys_idNOT IN3a7b9c422ff3a1105b8d52492799b668,fe7b9c422ff3a1105b8d52492799b664"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_80e8cc4e2f73a1105b8d52492799b6e0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>3a7b9c422ff3a1105b8d52492799b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:08:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_80e8cc4e2f73a1105b8d52492799b6e0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:08:44</sys_created_on>
+        <sys_id>fe7b9c422ff3a1105b8d52492799b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:08:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=80e8cc4e2f73a1105b8d52492799b6e0^sys_idNOT IN3f2e94462ff3a1105b8d52492799b602"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"3f2e94462ff3a1105b8d52492799b602","name":"plan","plan_signature":null}}</plan>
+        <plan_id>80e8cc4e2f73a1105b8d52492799b6e0</plan_id>
+        <snapshot>2e0dac062f37a1105b8d52492799b6c3</snapshot>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f2e94462ff3a1105b8d52492799b602</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:24</sys_updated_on>
+        <trigger display_value="">715ca0062f37a1105b8d52492799b6eb</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=80e8cc4e2f73a1105b8d52492799b6e0"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>When Student create an account notification will send to HR.</description>
+        <internal_name>starfish_account_creation_notification</internal_name>
+        <label_cache>[{"name":"Created_1.current.number","label":"Trigger - Record Created➛Children Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1083767_starfish_children","column_name":"number"},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Children Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1083767_starfish_children","column_name":"sys_created_on"},{"name":"Created_1.current.name","label":"Trigger - Record Created➛Children Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1083767_starfish_children","column_name":"name"},{"name":"Created_1.current","label":"Trigger - Record Created➛Children Record","reference":"x_1083767_starfish_children","reference_display":"Children","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Children Table","reference":"x_1083767_starfish_children","reference_display":"Children","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Children Record➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"x_1083767_starfish_children","column_name":"email"},{"name":"7055d286-d583-4ce6-a00e-6c7feaf73161.__action_status__.message","label":"1 - Send Notification➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Starfish Account creation notification</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Starfish Account creation notification">80e8cc4e2f73a1105b8d52492799b6e0</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>272e54462ff3a1105b8d52492799b6b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=272e54462ff3a1105b8d52492799b6b5^sys_idNOT IN672e54462ff3a1105b8d52492799b6e2"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Starfish Account creation notification">272e54462ff3a1105b8d52492799b6b5</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>672e54462ff3a1105b8d52492799b6e2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:24</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=672e54462ff3a1105b8d52492799b6e2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>672e54462ff3a1105b8d52492799b6e2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>6f2e54462ff3a1105b8d52492799b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:20:32</sys_updated_on>
+        <value>x_1083767_starfish_children</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>672e54462ff3a1105b8d52492799b6e2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>ab2e54462ff3a1105b8d52492799b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:20:32</sys_updated_on>
+        <value>numberISNOTEMPTY</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=272e54462ff3a1105b8d52492799b6b5^sys_idNOT INaf2e54462ff3a1105b8d52492799b6b5"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>272e54462ff3a1105b8d52492799b6b5</id>
+        <name>Starfish Account creation notification</name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>af2e54462ff3a1105b8d52492799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:20:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=af2e54462ff3a1105b8d52492799b6b5"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=272e54462ff3a1105b8d52492799b6b5^sys_idNOT INa32e54462ff3a1105b8d52492799b6b7,e32e54462ff3a1105b8d52492799b6d0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Starfish Account creation notification">272e54462ff3a1105b8d52492799b6b5</model>
+        <model_id>272e54462ff3a1105b8d52492799b6b5</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_272e54462ff3a1105b8d52492799b6b5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>a32e54462ff3a1105b8d52492799b6b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Starfish Account creation notification">272e54462ff3a1105b8d52492799b6b5</model>
+        <model_id>272e54462ff3a1105b8d52492799b6b5</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_272e54462ff3a1105b8d52492799b6b5</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>e32e54462ff3a1105b8d52492799b6d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=272e54462ff3a1105b8d52492799b6b5^sys_idNOT IN672e54462ff3a1105b8d52492799b6e0,ed5ca0062f37a1105b8d52492799b676"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Starfish Account creation notification">272e54462ff3a1105b8d52492799b6b5</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>672e54462ff3a1105b8d52492799b6e0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <ui_id>7055d286-d583-4ce6-a00e-6c7feaf73161</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=672e54462ff3a1105b8d52492799b6e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>672e54462ff3a1105b8d52492799b6e0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>632e54462ff3a1105b8d52492799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:20:32</sys_updated_on>
+        <value>x_1083767_starfish_children</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>672e54462ff3a1105b8d52492799b6e0</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>af2e54462ff3a1105b8d52492799b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:20:32</sys_updated_on>
+        <value>bdc9d0022ff3a1105b8d52492799b631</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=672e54462ff3a1105b8d52492799b6e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>672e54462ff3a1105b8d52492799b6e0</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>a72e54462ff3a1105b8d52492799b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:20:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>672e54462ff3a1105b8d52492799b6e0</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>2f2e54462ff3a1105b8d52492799b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:20:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>672e54462ff3a1105b8d52492799b6e0</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>6b2e54462ff3a1105b8d52492799b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:20:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=672e54462ff3a1105b8d52492799b6e0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=672e54462ff3a1105b8d52492799b6e0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Starfish Account creation notification">272e54462ff3a1105b8d52492799b6b5</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:22</sys_created_on>
+        <sys_id>ed5ca0062f37a1105b8d52492799b676</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <ui_id>239bf07b-4654-4cad-a6d9-cb8cc1c9f88b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed5ca0062f37a1105b8d52492799b676"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed5ca0062f37a1105b8d52492799b676</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:22</sys_created_on>
+        <sys_id>6d5ca0062f37a1105b8d52492799b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:22</sys_updated_on>
+        <value>x_1083767_starfish_children</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed5ca0062f37a1105b8d52492799b676</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:22</sys_created_on>
+        <sys_id>a95ca0062f37a1105b8d52492799b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:22</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed5ca0062f37a1105b8d52492799b676</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:22</sys_created_on>
+        <sys_id>e15ca0062f37a1105b8d52492799b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:22</sys_updated_on>
+        <value>rajbeer.saini@example.com,khushboo.snow@gmail.com,subh.stha@gmail.com,raju.vanamala@example.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ed5ca0062f37a1105b8d52492799b676"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>ed5ca0062f37a1105b8d52492799b676</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:22</sys_created_on>
+        <sys_id>295ca0062f37a1105b8d52492799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;The new Account has been created&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0eb7ba36-87c1-4438-9147-f582d5f405df}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0eb7ba36-87c1-4438-9147-f582d5f405df}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Children Record &amp;gt; Created"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Created&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0eb7ba36-87c1-4438-9147-f582d5f405df" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; for&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:7d8fb7b2-7caa-4fb9-a990-e8f814e3edf5}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:7d8fb7b2-7caa-4fb9-a990-e8f814e3edf5}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Children Record &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_7d8fb7b2-7caa-4fb9-a990-e8f814e3edf5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Record ID:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f42facbe-2c59-4855-b45d-a26f5841cae7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f42facbe-2c59-4855-b45d-a26f5841cae7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Children Record &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f42facbe-2c59-4855-b45d-a26f5841cae7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>ed5ca0062f37a1105b8d52492799b676</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:22</sys_created_on>
+        <sys_id>615ca0062f37a1105b8d52492799b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>New account created. Record ID{{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>ed5ca0062f37a1105b8d52492799b676</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:22</sys_created_on>
+        <sys_id>615ca0062f37a1105b8d52492799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ed5ca0062f37a1105b8d52492799b676</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:22</sys_created_on>
+        <sys_id>e95ca0062f37a1105b8d52492799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ed5ca0062f37a1105b8d52492799b676</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:22</sys_created_on>
+        <sys_id>ad5ca0062f37a1105b8d52492799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ed5ca0062f37a1105b8d52492799b676^sys_idNOT IN6d5ca0062f37a1105b8d52492799b678"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_body</input_name>
+        <instance>ed5ca0062f37a1105b8d52492799b676</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_body":{"scriptActive":false}}</script>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:22</sys_created_on>
+        <sys_id>6d5ca0062f37a1105b8d52492799b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:22</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ed5ca0062f37a1105b8d52492799b676"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=272e54462ff3a1105b8d52492799b6b5^sys_idNOT IN255ca0062f37a1105b8d52492799b68d,295ca0062f37a1105b8d52492799b68c,615ca0062f37a1105b8d52492799b68d,6d5ca0062f37a1105b8d52492799b68d,a95ca0062f37a1105b8d52492799b68d,ad5ca0062f37a1105b8d52492799b68c,e55ca0062f37a1105b8d52492799b68d,e95ca0062f37a1105b8d52492799b68c"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>272e54462ff3a1105b8d52492799b6b5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:23</sys_created_on>
+        <sys_id>255ca0062f37a1105b8d52492799b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b1162a54-8a4f-4182-926a-e4a697ea4c8a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>272e54462ff3a1105b8d52492799b6b5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.sys_created_on}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:23</sys_created_on>
+        <sys_id>295ca0062f37a1105b8d52492799b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c18a93e4-cdc0-4ef3-a645-4cfcd18f8882</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>272e54462ff3a1105b8d52492799b6b5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:23</sys_created_on>
+        <sys_id>615ca0062f37a1105b8d52492799b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7d8fb7b2-7caa-4fb9-a990-e8f814e3edf5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>272e54462ff3a1105b8d52492799b6b5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:23</sys_created_on>
+        <sys_id>6d5ca0062f37a1105b8d52492799b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>96075617-6132-4064-8055-cac2867f2513</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>272e54462ff3a1105b8d52492799b6b5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:23</sys_created_on>
+        <sys_id>a95ca0062f37a1105b8d52492799b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2d40bf2b-9cc0-4ee5-8961-b5a97c1deb11</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>272e54462ff3a1105b8d52492799b6b5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.sys_created_on}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:23</sys_created_on>
+        <sys_id>ad5ca0062f37a1105b8d52492799b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0eb7ba36-87c1-4438-9147-f582d5f405df</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>272e54462ff3a1105b8d52492799b6b5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:23</sys_created_on>
+        <sys_id>e55ca0062f37a1105b8d52492799b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f42facbe-2c59-4855-b45d-a26f5841cae7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>272e54462ff3a1105b8d52492799b6b5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 06:22:23</sys_created_on>
+        <sys_id>e95ca0062f37a1105b8d52492799b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 06:22:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>187871fa-ddd7-4459-9e0c-05638b64dcd6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_272e54462ff3a1105b8d52492799b6b5^sys_idNOT IN6f2e54462ff3a1105b8d52492799b6d4,e32e54462ff3a1105b8d52492799b6c0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_272e54462ff3a1105b8d52492799b6b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>6f2e54462ff3a1105b8d52492799b6d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:20:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_272e54462ff3a1105b8d52492799b6b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 05:20:32</sys_created_on>
+        <sys_id>e32e54462ff3a1105b8d52492799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 05:20:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_272e54462ff3a1105b8d52492799b6b5"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>80e8cc4e2f73a1105b8d52492799b6e0</sys_id>
+        <latest_snapshot>272e54462ff3a1105b8d52492799b6b5</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch1-03-01-2023_03-13-2023_1716.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

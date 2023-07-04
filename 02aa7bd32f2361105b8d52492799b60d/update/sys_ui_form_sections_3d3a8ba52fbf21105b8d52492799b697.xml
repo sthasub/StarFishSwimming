@@ -14,6 +14,20 @@
             <sys_updated_by>subhash.shrestha</sys_updated_by>
             <sys_updated_on>2023-07-03 04:35:13</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-04 06:13:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da3ae4422f37a1105b8d52492799b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1083767_starfish_class_enrollment" name="x_1083767_starfish_class_enrollment" sys_domain="global" view="Default view">3d3a8ba52fbf21105b8d52492799b697</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_1083767_starfish_class_enrollment" sys_domain="global" view="Default view">163ae4422f37a1105b8d52492799b6cf</sys_ui_section>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-04 06:13:09</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1083767_starfish_class_enrollment</name>
             <roles/>

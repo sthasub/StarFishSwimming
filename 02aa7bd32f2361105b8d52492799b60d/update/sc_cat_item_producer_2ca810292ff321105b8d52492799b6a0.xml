@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>true</can_cancel>
-        <category display_value="Starfish Forms">5f97b7692f7361105b8d52492799b601</category>
+        <category display_value="Forms Category">3fa9afbd2fff61105b8d52492799b684</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -68,7 +68,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs>4bbef9d02f7ba1105b8d52492799b6cf</sc_catalogs>
+        <sc_catalogs>8228e73d2fff61105b8d52492799b63d</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -87,14 +87,14 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-07-02 15:40:11</sys_created_on>
         <sys_id>2ca810292ff321105b8d52492799b6a0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Starfish Children Registration</sys_name>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name>sc_cat_item_producer_2ca810292ff321105b8d52492799b6a0</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 08:03:18</sys_updated_on>
+        <sys_updated_on>2023-07-04 01:33:08</sys_updated_on>
         <table_name>x_1083767_starfish_children</table_name>
         <taxonomy_topic/>
         <template/>

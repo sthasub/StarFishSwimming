@@ -28,6 +28,20 @@
             <sys_updated_by>subhash.shrestha</sys_updated_by>
             <sys_updated_on>2023-07-03 04:17:11</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>subhash.shrestha</sys_created_by>
+            <sys_created_on>2023-07-04 05:30:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3602cc62ff3a1105b8d52492799b6d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1083767_starfish_children" name="x_1083767_starfish_children" sys_domain="global" view="Default view">3516cf612fbf21105b8d52492799b63b</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_1083767_starfish_children" sys_domain="global" view="Default view">d7602cc62ff3a1105b8d52492799b6d3</sys_ui_section>
+            <sys_updated_by>subhash.shrestha</sys_updated_by>
+            <sys_updated_on>2023-07-04 05:30:22</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1083767_starfish_children</name>
             <roles/>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Starfish Children Registration">2ca810292ff321105b8d52492799b6a0</sc_cat_item>
+        <sc_catalog display_value="Starfish Catalog">4bbef9d02f7ba1105b8d52492799b6cf</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-02 15:40:11</sys_created_on>
+        <sys_id>30d854e52ff321105b8d52492799b6a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Catalog.Starfish Children Registration</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_30d854e52ff321105b8d52492799b6a3</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-02 15:40:11</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sc_cat_item_catalog_30d854e52ff321105b8d52492799b6a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Starfish Children Registration">2ca810292ff321105b8d52492799b6a0</sc_cat_item><sc_catalog display_value="Starfish Catalog">4bbef9d02f7ba1105b8d52492799b6cf</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>subhash.shrestha</sys_created_by><sys_created_on>2023-07-02 15:40:11</sys_created_on><sys_id>30d854e52ff321105b8d52492799b6a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Starfish Catalog.Starfish Children Registration</sys_name><sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package><sys_policy/><sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope><sys_update_name>sc_cat_item_catalog_30d854e52ff321105b8d52492799b6a3</sys_update_name><sys_updated_by>subhash.shrestha</sys_updated_by><sys_updated_on>2023-07-02 15:40:11</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1126072886</payload_hash>
+        <record_name>Starfish Catalog.Starfish Children Registration</record_name>
+        <reverted_from/>
+        <source>afddbfb02fff25105b8d52492799b6c8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-02 15:40:11</sys_created_on>
+        <sys_id>f8d814292ff321105b8d52492799b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1891742f4020000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-02 15:40:11</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>30d8142927f32110775e66be42ce5a45</update_guid>
+        <update_guid_history>30d8142927f32110775e66be42ce5a45:-1126072886</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Starfish Catalog.Starfish Children Registration">00f8ef7d2fff61105b8d52492799b636</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 01:27:55</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>30ed636c8ac04d6086dfe17d2fe01900</sys_id>
+        <sys_metadata>30d854e52ff321105b8d52492799b6a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Catalog.Starfish Children Registration</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent display_value="Starfish Children Registration">2ca810292ff321105b8d52492799b6a0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_30d854e52ff321105b8d52492799b6a3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_30d854e52ff321105b8d52492799b6a3">f8d814292ff321105b8d52492799b645</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 01:27:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

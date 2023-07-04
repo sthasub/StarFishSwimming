@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Starfish Enrollment">7dd814292ff321105b8d52492799b68e</sc_cat_item>
+        <sc_category display_value="Starfish Forms">5f97b7692f7361105b8d52492799b601</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-03 08:03:02</sys_created_on>
+        <sys_id>d6c9b72d2f7361105b8d52492799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Forms.Starfish Enrollment</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sc_cat_item_category_d6c9b72d2f7361105b8d52492799b6e4</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-03 08:03:02</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sc_cat_item_category_d6c9b72d2f7361105b8d52492799b6e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Starfish Enrollment">7dd814292ff321105b8d52492799b68e</sc_cat_item><sc_category display_value="Starfish Forms">5f97b7692f7361105b8d52492799b601</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>subhash.shrestha</sys_created_by><sys_created_on>2023-07-03 08:03:02</sys_created_on><sys_id>d6c9b72d2f7361105b8d52492799b6e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Starfish Forms.Starfish Enrollment</sys_name><sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package><sys_policy/><sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope><sys_update_name>sc_cat_item_category_d6c9b72d2f7361105b8d52492799b6e4</sys_update_name><sys_updated_by>subhash.shrestha</sys_updated_by><sys_updated_on>2023-07-03 08:03:02</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2072816054</payload_hash>
+        <record_name>Starfish Forms.Starfish Enrollment</record_name>
+        <reverted_from/>
+        <source>afddbfb02fff25105b8d52492799b6c8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-03 08:03:02</sys_created_on>
+        <sys_id>1ec9b72d2f7361105b8d52492799b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1891ac6c9d90000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-03 08:03:02</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>52c9b72d8773611064773d0149d832e7</update_guid>
+        <update_guid_history>52c9b72d8773611064773d0149d832e7:2072816054</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Starfish Forms.Starfish Enrollment">0f59e7bd2fff61105b8d52492799b608</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 01:29:45</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>5ad48b65e9a64900aa1e33bc99c05c40</sys_id>
+        <sys_metadata>d6c9b72d2f7361105b8d52492799b6e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starfish Forms.Starfish Enrollment</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_d6c9b72d2f7361105b8d52492799b6e4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_d6c9b72d2f7361105b8d52492799b6e4">1ec9b72d2f7361105b8d52492799b6e7</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 01:29:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
