@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Starfish Children Registration">2ca810292ff321105b8d52492799b6a0</cat_item>
+        <cat_item display_value="Starfish Enrollment">7dd814292ff321105b8d52492799b68e</cat_item>
         <cat_variable/>
         <condition/>
         <description/>
@@ -15,33 +15,28 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>StarfishValidateNumberValue</name>
+        <name>messageOfEnrollment</name>
         <order/>
         <script><![CDATA[function onSubmit() {
-   //Type appropriate comment here, and begin script below
-    var pattern = /^[0-9]+$/;
-	var number = g_form.getValue('mobile_phone');
-    if (!pattern.test(number)) {
-		g_form.addErrorMessage("Please input valid numeric Mobile Number");
-		g_form.setValue('mobile_phone', '');
-		return false;
-    }
+    //Type appropriate comment here, and begin script below
+    g_form.addInfoMessage('Enrollment form has been submitted successfully');
+
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-07-03 12:22:38</sys_created_on>
+        <sys_created_on>2023-07-04 10:19:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>180434352f7761105b8d52492799b646</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>StarfishValidateNumberValue</sys_name>
+        <sys_id>d3326dca2ff7a1105b8d52492799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>messageOfEnrollment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
-        <sys_update_name>catalog_script_client_180434352f7761105b8d52492799b646</sys_update_name>
+        <sys_update_name>catalog_script_client_d3326dca2ff7a1105b8d52492799b6c2</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-04 12:58:57</sys_updated_on>
+        <sys_updated_on>2023-07-04 10:19:50</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

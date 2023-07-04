@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <attributes/>
         <cat_item display_value="Starfish Children Registration">2ca810292ff321105b8d52492799b6a0</cat_item>
         <category/>
@@ -21,9 +21,9 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>user_password</field>
+        <field>user_name</field>
         <global>false</global>
-        <help_tag>More information</help_tag>
+        <help_tag>This ID will generated automatically once you submit the form</help_tag>
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
@@ -37,18 +37,18 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
-        <mask_use_encryption>true</mask_use_encryption>
-        <name>user_password</name>
-        <order>8</order>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>user_name</name>
+        <order>0</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Password</question_text>
-        <read_only>false</read_only>
+        <question_text>System Log ID</question_text>
+        <read_only>true</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -69,25 +69,25 @@
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
+        <show_help>true</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-07-03 02:45:02</sys_created_on>
-        <sys_id>44d0b6e92f3f21105b8d52492799b617</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Password</sys_name>
+        <sys_created_on>2023-07-04 07:25:06</sys_created_on>
+        <sys_id>a93af0c22f77a1105b8d52492799b617</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>System Log ID</sys_name>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
-        <sys_update_name>item_option_new_44d0b6e92f3f21105b8d52492799b617</sys_update_name>
+        <sys_update_name>item_option_new_a93af0c22f77a1105b8d52492799b617</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-04 08:46:10</sys_updated_on>
+        <sys_updated_on>2023-07-04 07:25:06</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>25</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=44d0b6e92f3f21105b8d52492799b617"/>
-    <fx_price action="delete_multiple" query="id=44d0b6e92f3f21105b8d52492799b617"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a93af0c22f77a1105b8d52492799b617"/>
+    <fx_price action="delete_multiple" query="id=a93af0c22f77a1105b8d52492799b617"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>44d0b6e92f3f21105b8d52492799b617</id>
+        <id>a93af0c22f77a1105b8d52492799b617</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-07-03 02:45:03</sys_created_on>
-        <sys_id>4c017ee92f3f21105b8d52492799b61b</sys_id>
+        <sys_created_on>2023-07-04 07:25:06</sys_created_on>
+        <sys_id>14bab8c22f77a1105b8d52492799b695</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 02:45:03</sys_updated_on>
+        <sys_updated_on>2023-07-04 07:25:06</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>44d0b6e92f3f21105b8d52492799b617</id>
+        <id>a93af0c22f77a1105b8d52492799b617</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-07-03 02:45:03</sys_created_on>
-        <sys_id>c0017ee92f3f21105b8d52492799b61b</sys_id>
+        <sys_created_on>2023-07-04 07:25:06</sys_created_on>
+        <sys_id>1cbab8c22f77a1105b8d52492799b693</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 02:45:03</sys_updated_on>
+        <sys_updated_on>2023-07-04 07:25:06</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
