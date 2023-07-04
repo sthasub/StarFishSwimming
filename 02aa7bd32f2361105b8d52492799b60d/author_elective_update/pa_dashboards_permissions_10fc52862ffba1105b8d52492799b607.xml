@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="DELETE">
+        <dashboard display_value="Starfish Swim Dashboard">dd50124a2fbba1105b8d52492799b6f5</dashboard>
+        <delete>false</delete>
+        <group display_value="Starfish Swim School" name="Starfish Swim School">841048e52f7321105b8d52492799b630</group>
+        <identity>841048e52f7321105b8d52492799b630</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 14:34:22</sys_created_on>
+        <sys_id>10fc52862ffba1105b8d52492799b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>841048e52f7321105b8d52492799b630</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_10fc52862ffba1105b8d52492799b607</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 14:34:22</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>pa_dashboards_permissions_10fc52862ffba1105b8d52492799b607</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions"><pa_dashboards_permissions action="INSERT_OR_UPDATE"><dashboard display_value="Starfish Swim Dashboard">dd50124a2fbba1105b8d52492799b6f5</dashboard><delete>false</delete><group display_value="Starfish Swim School" name="Starfish Swim School">841048e52f7321105b8d52492799b630</group><identity>841048e52f7321105b8d52492799b630</identity><read>true</read><role/><sys_class_name>pa_dashboards_permissions</sys_class_name><sys_created_by>subhash.shrestha</sys_created_by><sys_created_on>2023-07-04 14:34:22</sys_created_on><sys_id>10fc52862ffba1105b8d52492799b607</sys_id><sys_mod_count>0</sys_mod_count><sys_name>841048e52f7321105b8d52492799b630</sys_name><sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package><sys_policy/><sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope><sys_update_name>pa_dashboards_permissions_10fc52862ffba1105b8d52492799b607</sys_update_name><sys_updated_by>subhash.shrestha</sys_updated_by><sys_updated_on>2023-07-04 14:34:22</sys_updated_on><type>2</type><user/><write>false</write></pa_dashboards_permissions></record_update>]]></payload>
+        <payload_hash>-1742697248</payload_hash>
+        <record_name>841048e52f7321105b8d52492799b630</record_name>
+        <reverted_from/>
+        <source>afddbfb02fff25105b8d52492799b6c8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 14:34:22</sys_created_on>
+        <sys_id>1cfc52862ffba1105b8d52492799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18921536a280000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 14:34:22</sys_updated_on>
+        <type>Dashboard Permissions</type>
+        <update_guid>50fc52860afba110f64894b689ddd308</update_guid>
+        <update_guid_history>50fc52860afba110f64894b689ddd308:-1742697248</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="841048e52f7321105b8d52492799b630">790dd2862ffba1105b8d52492799b61b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-04 14:34:44</sys_created_on>
+        <sys_db_object display_value="" name="pa_dashboards_permissions">pa_dashboards_permissions</sys_db_object>
+        <sys_id>401d061c7a8042f6a48d0962022a1684</sys_id>
+        <sys_metadata>10fc52862ffba1105b8d52492799b607</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>841048e52f7321105b8d52492799b630</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>pa_dashboards_permissions_10fc52862ffba1105b8d52492799b607</sys_update_name>
+        <sys_update_version display_value="pa_dashboards_permissions_10fc52862ffba1105b8d52492799b607">1cfc52862ffba1105b8d52492799b608</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-04 14:34:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
