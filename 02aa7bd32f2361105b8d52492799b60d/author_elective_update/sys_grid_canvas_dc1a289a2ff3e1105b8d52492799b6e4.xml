@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="DELETE">
+        <legacy_page display_value="PA Starfish Swim Dashbo - New Tab 3">101a289a2ff3e1105b8d52492799b6e4</legacy_page>
+        <name>PA Starfish Swim Dashbo - New Tab 3</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 00:50:57</sys_created_on>
+        <sys_id>dc1a289a2ff3e1105b8d52492799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Starfish Swim Dashbo - New Tab 3</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_grid_canvas_dc1a289a2ff3e1105b8d52492799b6e4</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 00:50:57</sys_updated_on>
+    </sys_grid_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sys_grid_canvas_dc1a289a2ff3e1105b8d52492799b6e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas"><sys_grid_canvas action="INSERT_OR_UPDATE"><legacy_page display_value="PA Starfish Swim Dashbo - New Tab 3">101a289a2ff3e1105b8d52492799b6e4</legacy_page><name>PA Starfish Swim Dashbo - New Tab 3</name><sys_class_name>sys_grid_canvas</sys_class_name><sys_created_by>subhash.shrestha</sys_created_by><sys_created_on>2023-07-05 00:50:57</sys_created_on><sys_id>dc1a289a2ff3e1105b8d52492799b6e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PA Starfish Swim Dashbo - New Tab 3</sys_name><sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package><sys_policy/><sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope><sys_update_name>sys_grid_canvas_dc1a289a2ff3e1105b8d52492799b6e4</sys_update_name><sys_updated_by>subhash.shrestha</sys_updated_by><sys_updated_on>2023-07-05 00:50:57</sys_updated_on></sys_grid_canvas></record_update>]]></payload>
+        <payload_hash>-21222385</payload_hash>
+        <record_name>PA Starfish Swim Dashbo - New Tab 3</record_name>
+        <reverted_from/>
+        <source>afddbfb02fff25105b8d52492799b6c8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 00:50:57</sys_created_on>
+        <sys_id>581a689a2ff3e1105b8d52492799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1892387ec140000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 00:50:57</sys_updated_on>
+        <type>Grid Canvas</type>
+        <update_guid>941a289a88f3e110177b2f3462382ce6</update_guid>
+        <update_guid_history>941a289a88f3e110177b2f3462382ce6:-21222385</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 00:52:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas">sys_grid_canvas</sys_db_object>
+        <sys_id>0d49edbab49745da827fd7386b46bf49</sys_id>
+        <sys_metadata>dc1a289a2ff3e1105b8d52492799b6e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Starfish Swim Dashbo - New Tab 3</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_dc1a289a2ff3e1105b8d52492799b6e4</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_dc1a289a2ff3e1105b8d52492799b6e4">581a689a2ff3e1105b8d52492799b64a</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 00:52:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
