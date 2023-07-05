@@ -12,7 +12,7 @@
             </choice>
         </element>
         <element label="Duration" max_length="40" name="duration" read_only="true" type="string"/>
-        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element choice="3" default="ne" label="Enrollment Approval" max_length="40" name="enrollment_approval" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Enrolled" sequence="1" value="enr"/>

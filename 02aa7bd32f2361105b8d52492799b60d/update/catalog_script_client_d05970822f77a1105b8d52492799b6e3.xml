@@ -8,7 +8,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Starfish Children Registration">2ca810292ff321105b8d52492799b6a0</cat_item>
-        <cat_variable/>
+        <cat_variable>IO:a93af0c22f77a1105b8d52492799b617</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -18,11 +18,11 @@
         <name>concatIdAndLastName</name>
         <order/>
         <script><![CDATA[function onSubmit() {
-    //Type appropriate comment here, and begin script below
+   //Type appropriate comment here, and begin script below
     var schoolId = g_form.getValue('school_id');
     var lastName = g_form.getValue('last_name');
     g_form.setValue('user_name', schoolId + "." + lastName, schoolId + "." + lastName);
-	g_form.addInfoMessage('Once We verify your account we will you login ID and Password');
+	g_form.addInfoMessage('Account has been created successfully with id: '+ g_form.getValue('user_name'));
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>subhash.shrestha</sys_created_by>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d05970822f77a1105b8d52492799b6e3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>concatIdAndLastName</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name>catalog_script_client_d05970822f77a1105b8d52492799b6e3</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-04 08:35:15</sys_updated_on>
+        <sys_updated_on>2023-07-05 14:13:19</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

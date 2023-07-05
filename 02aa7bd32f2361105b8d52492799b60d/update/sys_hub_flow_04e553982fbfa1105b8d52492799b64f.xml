@@ -16,7 +16,7 @@
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>a285e3e52f3361105b8d52492799b69c</remote_trigger_id>
+        <remote_trigger_id>abc1575e2f7fe1105b8d52492799b6be</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>04e553982fbfa1105b8d52492799b64f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Enrollment Approval Automation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name>sys_hub_flow_04e553982fbfa1105b8d52492799b64f</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:36</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:49</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=04e553982fbfa1105b8d52492799b64f"/>
@@ -58,15 +58,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-07-03 06:34:35</sys_created_on>
+        <sys_created_on>2023-07-05 13:03:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a285e3e52f3361105b8d52492799b69c</sys_id>
+        <sys_id>abc1575e2f7fe1105b8d52492799b6be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:35</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:48</sys_updated_on>
         <table>x_1083767_starfish_class_enrollment</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -75,14 +75,14 @@
         <identifier>04e553982fbfa1105b8d52492799b64f</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>subhash.shrestha</sys_created_by>
-        <sys_created_on>2023-07-03 06:34:35</sys_created_on>
-        <sys_id>2e85e3e52f3361105b8d52492799b69c</sys_id>
+        <sys_created_on>2023-07-05 13:03:48</sys_created_on>
+        <sys_id>27c1575e2f7fe1105b8d52492799b6bf</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:35</sys_updated_on>
-        <trigger display_value="">a285e3e52f3361105b8d52492799b69c</trigger>
+        <sys_updated_on>2023-07-05 13:03:48</sys_updated_on>
+        <trigger display_value="">abc1575e2f7fe1105b8d52492799b6be</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=04e553982fbfa1105b8d52492799b64f^sys_idNOT IN2e85e3e52f3361105b8d52492799b69c"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=04e553982fbfa1105b8d52492799b64f^sys_idNOT IN27c1575e2f7fe1105b8d52492799b6bf"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=04e553982fbfa1105b8d52492799b64f^sys_idNOT IN99ef5d702fb725105b8d52492799b6ba"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -93,10 +93,10 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-30 12:55:15</sys_created_on>
         <sys_id>99ef5d702fb725105b8d52492799b6ba</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:35</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:49</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -224,14 +224,14 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:18:57</sys_created_on>
         <sys_id>1017d31c2fbfa1105b8d52492799b6b1</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:35</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -390,14 +390,14 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:18:57</sys_created_on>
         <sys_id>8817d31c2fbfa1105b8d52492799b6a9</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:35</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -412,7 +412,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=04e553982fbfa1105b8d52492799b64f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=04e553982fbfa1105b8d52492799b64f"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=04e553982fbfa1105b8d52492799b64f^sys_idNOT IN2d1f1f142fffa1105b8d52492799b672,9c17d31c2fbfa1105b8d52492799b6bd,d5ef5d702fb725105b8d52492799b6cc"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=04e553982fbfa1105b8d52492799b64f^sys_idNOT IN2d1f1f142fffa1105b8d52492799b672,73b1935e2f7fe1105b8d52492799b6b4,9c17d31c2fbfa1105b8d52492799b6bd,bfb1935e2f7fe1105b8d52492799b6a5,d5ef5d702fb725105b8d52492799b6cc"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -421,16 +421,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Enrollment Approval Automation">04e553982fbfa1105b8d52492799b64f</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>ff1bf37e-8261-47a7-8909-fbe131f07b55</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:54:00</sys_created_on>
         <sys_id>2d1f1f142fffa1105b8d52492799b672</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:36</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:11:59</sys_updated_on>
         <ui_id>0618e4e8-4c05-4d84-b0a2-e689e95034cb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2d1f1f142fffa1105b8d52492799b672"/>
@@ -504,6 +504,94 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Enrollment Approval Automation">04e553982fbfa1105b8d52492799b64f</flow>
+        <order>7</order>
+        <parent_ui_id>ff1bf37e-8261-47a7-8909-fbe131f07b55</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>73b1935e2f7fe1105b8d52492799b6b4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:11:59</sys_updated_on>
+        <ui_id>c4c9f282-4349-43c4-a9ec-6bb7af5e0bbb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=73b1935e2f7fe1105b8d52492799b6b4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>73b1935e2f7fe1105b8d52492799b6b4</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>7fb1935e2f7fe1105b8d52492799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:33</sys_updated_on>
+        <value>x_1083767_starfish_class_enrollment</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>73b1935e2f7fe1105b8d52492799b6b4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>bbb1935e2f7fe1105b8d52492799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:33</sys_updated_on>
+        <value>29f09f5a2f7fe1105b8d52492799b6e9</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=73b1935e2f7fe1105b8d52492799b6b4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>73b1935e2f7fe1105b8d52492799b6b4</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>b3b1935e2f7fe1105b8d52492799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>73b1935e2f7fe1105b8d52492799b6b4</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>3bb1935e2f7fe1105b8d52492799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>73b1935e2f7fe1105b8d52492799b6b4</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>77b1935e2f7fe1105b8d52492799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=73b1935e2f7fe1105b8d52492799b6b4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=73b1935e2f7fe1105b8d52492799b6b4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
         <comment/>
@@ -515,10 +603,10 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:18:57</sys_created_on>
         <sys_id>9c17d31c2fbfa1105b8d52492799b6bd</sys_id>
-        <sys_mod_count>78</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:35</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:11:59</sys_updated_on>
         <ui_id>02c1a13a-057e-4930-a6db-c6594ac2a2ec</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9c17d31c2fbfa1105b8d52492799b6bd"/>
@@ -630,6 +718,94 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Enrollment Approval Automation">04e553982fbfa1105b8d52492799b64f</flow>
+        <order>4</order>
+        <parent_ui_id>f416b335-38ea-4a50-b15a-fc0906112ba3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>bfb1935e2f7fe1105b8d52492799b6a5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:11:59</sys_updated_on>
+        <ui_id>4bc8241f-1c43-4cd2-9f56-d9f1fb125a27</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bfb1935e2f7fe1105b8d52492799b6a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfb1935e2f7fe1105b8d52492799b6a5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>3fb1935e2f7fe1105b8d52492799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:33</sys_updated_on>
+        <value>x_1083767_starfish_class_enrollment</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfb1935e2f7fe1105b8d52492799b6a5</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>77b1935e2f7fe1105b8d52492799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:33</sys_updated_on>
+        <value>a0b74bd22f7fe1105b8d52492799b63c</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bfb1935e2f7fe1105b8d52492799b6a5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>bfb1935e2f7fe1105b8d52492799b6a5</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>7bb1935e2f7fe1105b8d52492799b6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bfb1935e2f7fe1105b8d52492799b6a5</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>f3b1935e2f7fe1105b8d52492799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bfb1935e2f7fe1105b8d52492799b6a5</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:33</sys_created_on>
+        <sys_id>33b1935e2f7fe1105b8d52492799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bfb1935e2f7fe1105b8d52492799b6a5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bfb1935e2f7fe1105b8d52492799b6a5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
@@ -641,10 +817,10 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-30 12:55:15</sys_created_on>
         <sys_id>d5ef5d702fb725105b8d52492799b6cc</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:35</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:11:59</sys_updated_on>
         <ui_id>dbe40d9d-60a8-4404-adc7-aa19bc79604d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5ef5d702fb725105b8d52492799b6cc"/>
@@ -739,10 +915,10 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:18:57</sys_created_on>
         <sys_id>1c17d31c2fbfa1105b8d52492799b6c2</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:35</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:49</sys_updated_on>
         <ui_id>f416b335-38ea-4a50-b15a-fc0906112ba3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -803,7 +979,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -811,10 +987,10 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:54:00</sys_created_on>
         <sys_id>ed1f1f142fffa1105b8d52492799b66a</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:36</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:49</sys_updated_on>
         <ui_id>ff1bf37e-8261-47a7-8909-fbe131f07b55</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -941,18 +1117,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"3b589f5c2fbfa1105b8d52492799b687","name":"plan","plan_signature":null}}</plan>
         <plan_id>04e553982fbfa1105b8d52492799b64f</plan_id>
-        <snapshot>9f589f5c2fbfa1105b8d52492799b617</snapshot>
+        <snapshot>07a317de2f7fe1105b8d52492799b6a8</snapshot>
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:24:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3b589f5c2fbfa1105b8d52492799b687</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:35</sys_updated_on>
-        <trigger display_value="">a285e3e52f3361105b8d52492799b69c</trigger>
+        <sys_updated_on>2023-07-05 13:03:48</sys_updated_on>
+        <trigger display_value="">abc1575e2f7fe1105b8d52492799b6be</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=04e553982fbfa1105b8d52492799b64f"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -983,7 +1159,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9f589f5c2fbfa1105b8d52492799b617</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -991,7 +1167,7 @@
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:34</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:47</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=9f589f5c2fbfa1105b8d52492799b617"/>
@@ -1006,10 +1182,10 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:24:38</sys_created_on>
         <sys_id>6f589f5c2fbfa1105b8d52492799b66a</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:35</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:48</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1262,14 +1438,14 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:24:37</sys_created_on>
         <sys_id>d7589f5c2fbfa1105b8d52492799b619</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:33</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1345,14 +1521,14 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:24:38</sys_created_on>
         <sys_id>df589f5c2fbfa1105b8d52492799b638</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:33</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1367,7 +1543,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=9f589f5c2fbfa1105b8d52492799b617"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9f589f5c2fbfa1105b8d52492799b617"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=9f589f5c2fbfa1105b8d52492799b617^sys_idNOT IN23589f5c2fbfa1105b8d52492799b65f,4f1f5f142fffa1105b8d52492799b6b1,6a60a9b02fb725105b8d52492799b6d0"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9f589f5c2fbfa1105b8d52492799b617^sys_idNOT IN23589f5c2fbfa1105b8d52492799b65f,36c1175e2f7fe1105b8d52492799b6f5,4f1f5f142fffa1105b8d52492799b6b1,6a60a9b02fb725105b8d52492799b6d0,bac1175e2f7fe1105b8d52492799b6fc"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1382,10 +1558,10 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:24:38</sys_created_on>
         <sys_id>23589f5c2fbfa1105b8d52492799b65f</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:34</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:46</sys_updated_on>
         <ui_id>02c1a13a-057e-4930-a6db-c6594ac2a2ec</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=23589f5c2fbfa1105b8d52492799b65f"/>
@@ -1497,21 +1673,109 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Enrollment Approval Automation">9f589f5c2fbfa1105b8d52492799b617</flow>
+        <order>4</order>
+        <parent_ui_id>f416b335-38ea-4a50-b15a-fc0906112ba3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:45</sys_created_on>
+        <sys_id>36c1175e2f7fe1105b8d52492799b6f5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:47</sys_updated_on>
+        <ui_id>4bc8241f-1c43-4cd2-9f56-d9f1fb125a27</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36c1175e2f7fe1105b8d52492799b6f5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36c1175e2f7fe1105b8d52492799b6f5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:45</sys_created_on>
+        <sys_id>32c1175e2f7fe1105b8d52492799b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:45</sys_updated_on>
+        <value>x_1083767_starfish_class_enrollment</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36c1175e2f7fe1105b8d52492799b6f5</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:45</sys_created_on>
+        <sys_id>7ec1175e2f7fe1105b8d52492799b6f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:45</sys_updated_on>
+        <value>a0b74bd22f7fe1105b8d52492799b63c</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=36c1175e2f7fe1105b8d52492799b6f5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>36c1175e2f7fe1105b8d52492799b6f5</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:45</sys_created_on>
+        <sys_id>76c1175e2f7fe1105b8d52492799b6f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>36c1175e2f7fe1105b8d52492799b6f5</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:45</sys_created_on>
+        <sys_id>fac1175e2f7fe1105b8d52492799b6f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>36c1175e2f7fe1105b8d52492799b6f5</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:45</sys_created_on>
+        <sys_id>3ac1175e2f7fe1105b8d52492799b6f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=36c1175e2f7fe1105b8d52492799b6f5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=36c1175e2f7fe1105b8d52492799b6f5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Enrollment Approval Automation">9f589f5c2fbfa1105b8d52492799b617</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>ff1bf37e-8261-47a7-8909-fbe131f07b55</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:54:05</sys_created_on>
         <sys_id>4f1f5f142fffa1105b8d52492799b6b1</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:34</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:47</sys_updated_on>
         <ui_id>0618e4e8-4c05-4d84-b0a2-e689e95034cb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4f1f5f142fffa1105b8d52492799b6b1"/>
@@ -1596,10 +1860,10 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-30 12:57:31</sys_created_on>
         <sys_id>6a60a9b02fb725105b8d52492799b6d0</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:34</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:46</sys_updated_on>
         <ui_id>dbe40d9d-60a8-4404-adc7-aa19bc79604d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6a60a9b02fb725105b8d52492799b6d0"/>
@@ -1670,6 +1934,94 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6a60a9b02fb725105b8d52492799b6d0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a60a9b02fb725105b8d52492799b6d0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Enrollment Approval Automation">9f589f5c2fbfa1105b8d52492799b617</flow>
+        <order>7</order>
+        <parent_ui_id>ff1bf37e-8261-47a7-8909-fbe131f07b55</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:46</sys_created_on>
+        <sys_id>bac1175e2f7fe1105b8d52492799b6fc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:47</sys_updated_on>
+        <ui_id>c4c9f282-4349-43c4-a9ec-6bb7af5e0bbb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bac1175e2f7fe1105b8d52492799b6fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bac1175e2f7fe1105b8d52492799b6fc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:46</sys_created_on>
+        <sys_id>b6c1175e2f7fe1105b8d52492799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:46</sys_updated_on>
+        <value>x_1083767_starfish_class_enrollment</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bac1175e2f7fe1105b8d52492799b6fc</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:46</sys_created_on>
+        <sys_id>f2c1175e2f7fe1105b8d52492799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:46</sys_updated_on>
+        <value>29f09f5a2f7fe1105b8d52492799b6e9</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bac1175e2f7fe1105b8d52492799b6fc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>bac1175e2f7fe1105b8d52492799b6fc</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:46</sys_created_on>
+        <sys_id>fac1175e2f7fe1105b8d52492799b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bac1175e2f7fe1105b8d52492799b6fc</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:46</sys_created_on>
+        <sys_id>72c1175e2f7fe1105b8d52492799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bac1175e2f7fe1105b8d52492799b6fc</id>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 13:03:46</sys_created_on>
+        <sys_id>bec1175e2f7fe1105b8d52492799b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 13:03:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bac1175e2f7fe1105b8d52492799b6fc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bac1175e2f7fe1105b8d52492799b6fc"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9f589f5c2fbfa1105b8d52492799b617"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=9f589f5c2fbfa1105b8d52492799b617^sys_idNOT IN63589f5c2fbfa1105b8d52492799b651,8b1f5f142fffa1105b8d52492799b6c3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -1694,10 +2046,10 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:24:38</sys_created_on>
         <sys_id>63589f5c2fbfa1105b8d52492799b651</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:34</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:46</sys_updated_on>
         <ui_id>f416b335-38ea-4a50-b15a-fc0906112ba3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1758,7 +2110,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1766,10 +2118,10 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-06-29 08:54:05</sys_created_on>
         <sys_id>8b1f5f142fffa1105b8d52492799b6c3</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 06:34:34</sys_updated_on>
+        <sys_updated_on>2023-07-05 13:03:47</sys_updated_on>
         <ui_id>ff1bf37e-8261-47a7-8909-fbe131f07b55</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
