@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ddad3a842f7f61105b8d52492799b678" label="Announcement" max_length="40" name="x_1083767_starfish_announcement" type="collection">
-        <element label="description" max_length="40" name="description" type="string"/>
-        <element label="Title" max_length="40" name="title" type="string"/>
-    </element>
-</database>

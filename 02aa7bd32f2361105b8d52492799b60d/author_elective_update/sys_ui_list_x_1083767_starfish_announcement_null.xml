@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1083767_starfish_announcement" version="2" view="">
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1083767_starfish_announcement</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>a071cf882f7f61105b8d52492799b692</sys_id>
+            <sys_mod_count/>
+            <sys_name>x_1083767_starfish_announcement</sys_name>
+            <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2023-06-28 23:35:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sys_ui_list_x_1083767_starfish_announcement_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1083767_starfish_announcement" version="2" view=""><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1083767_starfish_announcement</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>a071cf882f7f61105b8d52492799b692</sys_id><sys_mod_count/><sys_name>x_1083767_starfish_announcement</sys_name><sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package><sys_policy/><sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2023-06-28 23:35:15</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1564422130</payload_hash>
+        <record_name>x_1083767_starfish_announcement</record_name>
+        <reverted_from/>
+        <source>b2ac1ddc2fb7a1105b8d52492799b6c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>khusbhoo.kumari</sys_created_by>
+        <sys_created_on>2023-06-28 23:35:15</sys_created_on>
+        <sys_id>0d3f95902ff7a1105b8d52492799b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189045c76650000001</sys_recorded_at>
+        <sys_updated_by>khusbhoo.kumari</sys_updated_by>
+        <sys_updated_on>2023-06-28 23:35:15</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>c13f959047f7a11027d1d680dd33eacb</update_guid>
+        <update_guid_history>c13f959047f7a11027d1d680dd33eacb:1564422130,a071cf88ff7f61104d116bff15aab595:-804136054</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 09:21:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>1e10fbd2321f45608865bd398b30d040</sys_id>
+        <sys_metadata>e854dc212ff321105b8d52492799b669</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1083767_starfish_announcement</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent display_value="">ddad3a842f7f61105b8d52492799b678</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1083767_starfish_announcement_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1083767_starfish_announcement_null">0d3f95902ff7a1105b8d52492799b6cb</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 09:21:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

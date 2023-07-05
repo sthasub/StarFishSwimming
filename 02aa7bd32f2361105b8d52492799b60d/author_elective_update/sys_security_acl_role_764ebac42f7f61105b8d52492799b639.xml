@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 11:52:14</sys_created_on>
+        <sys_id>764ebac42f7f61105b8d52492799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1083767_starfish_announcement.x_1083767_starfish.announcement_user</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_security_acl display_value="x_1083767_starfish_announcement">f64ebac42f7f61105b8d52492799b636</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_764ebac42f7f61105b8d52492799b639</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 11:52:14</sys_updated_on>
+        <sys_user_role display_value="x_1083767_starfish.announcement_user" name="x_1083767_starfish.announcement_user">ed14760c2f3f61105b8d52492799b6a7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sys_security_acl_role_764ebac42f7f61105b8d52492799b639</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 11:52:14</sys_created_on>
+        <sys_id>764ebac42f7f61105b8d52492799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1083767_starfish_announcement.x_1083767_starfish.announcement_user</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_security_acl display_value="x_1083767_starfish_announcement">f64ebac42f7f61105b8d52492799b636</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_764ebac42f7f61105b8d52492799b639</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 11:52:14</sys_updated_on>
+        <sys_user_role display_value="x_1083767_starfish.announcement_user" name="x_1083767_starfish.announcement_user">ed14760c2f3f61105b8d52492799b6a7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>1545824549</payload_hash>
+        <record_name>x_1083767_starfish_announcement.x_1083767_starfish.announcement_user</record_name>
+        <reverted_from/>
+        <source>aacb80a52fb321105b8d52492799b627</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-02 14:43:41</sys_created_on>
+        <sys_id>d5eb48a52fb321105b8d52492799b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189170f39a00000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-02 14:43:41</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>91eb48a5edb321103ebdd44f51fd9d7d</update_guid>
+        <update_guid_history>91eb48a5edb321103ebdd44f51fd9d7d:0,8d6b006563b32110bb7d69873b509ff7:-1162349039,15ece590333ba110fca3b5cca472f0c6:0,771469588cf7a1109f7a7216c2d860cc:1487316717,9563e518fcf7a110a9a1b1d098f54ab2:0,a092ad94d2f7a1100f157884224b3d0e:1487316717,47df1dd0aff7a1104c112ac2b3712c81:0,2d3fd59040f7a110b0c1dc23c78bfb55:-637176282,324ebac4fe7f6110ad739a33f0cd8a3b:1280953757</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1083767_starfish_announcement.x_1083767_starfish.announcement_user">42de5ada2fbbe1105b8d52492799b6d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 09:21:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>12547313f80142aa868b802d1a4e4b04</sys_id>
+        <sys_metadata>764ebac42f7f61105b8d52492799b639</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1083767_starfish_announcement.x_1083767_starfish.announcement_user</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent display_value="">f64ebac42f7f61105b8d52492799b636</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_764ebac42f7f61105b8d52492799b639</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_764ebac42f7f61105b8d52492799b639">d5eb48a52fb321105b8d52492799b67d</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 09:21:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

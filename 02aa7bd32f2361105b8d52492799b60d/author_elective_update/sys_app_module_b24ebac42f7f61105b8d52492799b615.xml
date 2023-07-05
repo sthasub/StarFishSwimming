@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Starfish Swimming Application">fc2cf2442f7f61105b8d52492799b673</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Announcements</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1083767_starfish_announcement</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1083767_starfish.announcement_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 11:52:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b24ebac42f7f61105b8d52492799b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Announcements</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_app_module_b24ebac42f7f61105b8d52492799b615</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 11:52:14</sys_updated_on>
+        <timeline_page/>
+        <title>Announcements</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</application>
+        <file_path/>
+        <instance_id>735517b8dbce69d08aea21c40596191d</instance_id>
+        <instance_name>dev170549</instance_name>
+        <name>sys_app_module_b24ebac42f7f61105b8d52492799b615</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Starfish Swimming Application">fc2cf2442f7f61105b8d52492799b673</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Announcements</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1083767_starfish_announcement</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1083767_starfish.announcement_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-06-28 11:52:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b24ebac42f7f61105b8d52492799b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Announcements</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_update_name>sys_app_module_b24ebac42f7f61105b8d52492799b615</sys_update_name>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-06-28 11:52:14</sys_updated_on>
+        <timeline_page/>
+        <title>Announcements</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1227333739</payload_hash>
+        <record_name>Announcements</record_name>
+        <reverted_from/>
+        <source>aacb80a52fb321105b8d52492799b627</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-02 14:43:34</sys_created_on>
+        <sys_id>2bdbc4a52fb321105b8d52492799b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189170f1fd10000001</sys_recorded_at>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-02 14:43:34</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e3dbc4a592b32110b4f8134752d3cc8f</update_guid>
+        <update_guid_history>e3dbc4a592b32110b4f8134752d3cc8f:0,e16b40657fb321108183607729a6d19f:1856339797,b4eca590d13ba110f38e83b15277e0dd:0,6314695817f7a1103b3b306db11c3762:1856339797,fc63a518c9f7a110b4384052d23a11e9:0,94926d94f0f7a110937fb660022b05c6:1856339797,5adfd9d0fcf7a1108c9be1b91caf43ea:0,053f9590fbf7a1103b22675e4c2fe3e7:1154191557,8ba5c3cc807f6110bc891d7947a67afe:404624959,9a33c70ce07f61104576847a49163b1d:1309471646,80c2c7c8ea7f611070caf42b3f7212b5:-364703248,3e4ebac4587f6110e15d081a07e03716:-2086533865</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Announcements">5ade5ada2fbbe1105b8d52492799b6fc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subhash.shrestha</sys_created_by>
+        <sys_created_on>2023-07-05 09:21:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>107feaab87fd414a82e8672d69c47484</sys_id>
+        <sys_metadata>b24ebac42f7f61105b8d52492799b615</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Announcements</sys_name>
+        <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
+        <sys_scope_delete display_value="">0c4fa0e89b2f438081de7c85f77a1000</sys_scope_delete>
+        <sys_update_name>sys_app_module_b24ebac42f7f61105b8d52492799b615</sys_update_name>
+        <sys_update_version display_value="sys_app_module_b24ebac42f7f61105b8d52492799b615">2bdbc4a52fb321105b8d52492799b68f</sys_update_version>
+        <sys_updated_by>subhash.shrestha</sys_updated_by>
+        <sys_updated_on>2023-07-05 09:21:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
