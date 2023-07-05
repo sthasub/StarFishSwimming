@@ -20,7 +20,7 @@
         <dynamic_value_dot_walk_path/>
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
-        <example_text/>
+        <example_text>Adelaide27</example_text>
         <field>school_id</field>
         <global>false</global>
         <help_tag>More information</help_tag>
@@ -47,7 +47,7 @@
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Student's School Id</question_text>
+        <question_text>School Name with Rollno. </question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,14 +77,14 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-07-03 02:30:36</sys_created_on>
         <sys_id>ea2daee52f3f21105b8d52492799b654</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Student's School Id</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>School Name with Rollno. </sys_name>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name>item_option_new_ea2daee52f3f21105b8d52492799b654</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 02:49:03</sys_updated_on>
+        <sys_updated_on>2023-07-05 08:52:50</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

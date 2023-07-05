@@ -20,7 +20,7 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>SetEnrollPendingAfterSumbit</name>
+        <name>SetEnrollPendingOrRequestAfterSumbit</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -40,15 +40,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b84a9df82f7725105b8d52492799b636</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>SetEnrollPendingAfterSumbit</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>SetEnrollPendingOrRequestAfterSumbit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name>sys_script_b84a9df82f7725105b8d52492799b636</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-03 05:55:48</sys_updated_on>
+        <sys_updated_on>2023-07-05 03:14:04</sys_updated_on>
         <template>enrollment_approval=pen^EQ</template>
         <when>before</when>
     </sys_script>
