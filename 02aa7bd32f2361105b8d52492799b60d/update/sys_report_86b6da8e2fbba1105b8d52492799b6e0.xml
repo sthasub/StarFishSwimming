@@ -46,8 +46,9 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field>approval_column</field>
-        <field_list>state,approver,comments,sysapproval,sys_created_on</field_list>
-        <filter/>
+        <field_list>state,document_id,approver,comments,sysapproval,sys_created_on</field_list>
+        <filter table="sysapproval_approver">state=requested<item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+        </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -106,14 +107,14 @@
         <sys_created_by>subhash.shrestha</sys_created_by>
         <sys_created_on>2023-07-04 14:07:10</sys_created_on>
         <sys_id>86b6da8e2fbba1105b8d52492799b6e0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>List of Request Approval</sys_name>
         <sys_package display_value="Starfish Swimming Application" source="x_1083767_starfish">02aa7bd32f2361105b8d52492799b60d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starfish Swimming Application">02aa7bd32f2361105b8d52492799b60d</sys_scope>
         <sys_update_name>sys_report_86b6da8e2fbba1105b8d52492799b6e0</sys_update_name>
         <sys_updated_by>subhash.shrestha</sys_updated_by>
-        <sys_updated_on>2023-07-04 14:15:48</sys_updated_on>
+        <sys_updated_on>2023-07-06 02:28:08</sys_updated_on>
         <table>sysapproval_approver</table>
         <title>List of Request Approval</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
